@@ -7,6 +7,7 @@ import streamlit as st
 import json
 import uuid
 import logging
+from ..problem.problem_repository import ProblemRepository
 
 logger = logging.getLogger(__name__)
 
@@ -31,6 +32,7 @@ class OpenAIProblemGenerator:
                 )
             self.client = OpenAI(api_key=api_key)
             self.cache = {}  # 문제 캐시
+            self.repository = ProblemRepository()  # 문제 저장소 초기화
             self._is_initialized = True
 
     def _generate_problem_id(self) -> str:
@@ -155,11 +157,15 @@ class OpenAIProblemGenerator:
                 messages=[
                     {
                         "role": "system",
-                        "content": "You are a helpful assistant that always responds in JSON format.",
+                        "content": "You are a helpful assistant that generates math problems. Always respond in JSON format.",
+                    },
+                    {
+                        "role": "user",
+                        "content": "Please generate a response in JSON format following the structure below.",
                     },
                     {"role": "user", "content": prompt},
                 ],
-                temperature=0.7,  # 온도값을 약간 낮춰서 더 일관된 응답 생성
+                temperature=0.7,
                 response_format={"type": "json_object"},
             )
             logger.info("OpenAI API 호출 완료")
@@ -198,7 +204,13 @@ class OpenAIProblemGenerator:
 
             # 캐시에 문제 저장
             self.cache[result["id"]] = result
-            logger.info(f"새로운 문제 생성 완료 - ID: {result['id']}")
+
+            # 문제 저장소에 저장
+            try:
+                self.repository.save_problem(result)
+                logger.info(f"문제가 저장소에 저장되었습니다. ID: {result['id']}")
+            except Exception as e:
+                logger.error(f"문제 저장소 저장 실패: {str(e)}")
 
             return result
 

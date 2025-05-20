@@ -223,3 +223,8 @@ class VectorStore:
 - 추천 시스템 정확도 추적
 
 
+ProblemRepository: 문제 저장 및 관리
+ProblemGenerator: 문제 생성 로직
+ProblemValidator: 문제 유효성 검증
+ProblemFormatter: 문제 포맷 변환
+OpenAIClient: OpenAI API 호출
