@@ -96,7 +96,7 @@ class OpenAIProblemGenerator:
         # OpenAI API 호출
         try:
             response = self.client.chat.completions.create(
-                model="gpt-3.5-turbo",
+                model="gpt-4",
                 messages=[
                     {
                         "role": "system",
@@ -104,7 +104,7 @@ class OpenAIProblemGenerator:
                     },
                     {"role": "user", "content": prompt},
                 ],
-                temperature=0.7,
+                temperature=0.8,
             )
 
             # 응답 파싱 및 반환
