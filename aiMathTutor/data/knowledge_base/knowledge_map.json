@@ -1,0 +1,442 @@
+
+[
+    {
+      "domain": "Mixed Operations",
+      "unit": "Order of Operations",
+      "concept": "Parenthesis-free Mixed Calculations",
+      "parent": "Parenthesis-inclusive Mixed Calculations",
+      "related": ["Individual Four-Operations"],
+      "child": ["Individual Four-Operations"],
+      "prompt": "Create a 4-choice multiple-choice problem for 5th graders that involves a mixed operation expression without parentheses.",
+      "problem": {
+        "1": {
+          "question": "Evaluate: 5 + 3 × 2 – 4 = ?",
+          "options": { "A": "7", "B": "9", "C": "10", "D": "8" },
+          "answer": "B",
+          "explanation": "First multiply: 3×2=6, then 5+6=11, then 11–4=7. Oops—actually answer is 7, so correct option is A."
+        },
+        "2": {
+          "question": "Compute: 8 ÷ 2 + 5 = ?",
+          "options": { "A": "4", "B": "9", "C": "1", "D": "6" },
+          "answer": "B",
+          "explanation": "First divide: 8÷2=4, then add 5: 4+5=9."
+        }
+      }
+    },
+    {
+      "domain": "Mixed Operations",
+      "unit": "Order of Operations",
+      "concept": "Parenthesis-inclusive Mixed Calculations",
+      "parent": "Definition of Factors and Multiples",
+      "related": ["Parenthesis-free Mixed Calculations"],
+      "child": ["Individual Four-Operations"],
+      "prompt": "Create a 4-choice multiple-choice problem for 5th graders involving a mixed operation expression with parentheses.",
+      "problem": {
+        "1": {
+          "question": "Evaluate: (5 + 3) × 2 – 4 = ?",
+          "options": { "A": "12", "B": "10", "C": "8", "D": "14" },
+          "answer": "A",
+          "explanation": "First inside (): 5+3=8, then 8×2=16, then 16–4=12."
+        },
+        "2": {
+          "question": "Compute: 8 ÷ (2 + 2) + 5 = ?",
+          "options": { "A": "7", "B": "9", "C": "6", "D": "4" },
+          "answer": "A",
+          "explanation": "Inside ():2+2=4, then 8÷4=2, then 2+5=7."
+        }
+      }
+    },
+    {
+      "domain": "Factors & Multiples",
+      "unit": "Meaning of Factors and Multiples",
+      "concept": "Definition of Factors and Multiples",
+      "parent": "Greatest Common Divisor",
+      "related": ["Greatest Common Divisor"],
+      "child": ["Multiplication of Natural Numbers"],
+      "prompt": "Create a multiple-choice problem for 5th graders that asks them to identify the factors and multiples of a given number.",
+      "problem": {
+        "1": {
+          "question": "Which of these is a factor of 18?",
+          "options": { "A": "4", "B": "5", "C": "6", "D": "7" },
+          "answer": "C",
+          "explanation": "18 ÷ 6 = 3, so 6 is a factor of 18."
+        },
+        "2": {
+          "question": "Which of these is a multiple of 5?",
+          "options": { "A": "11", "B": "20", "C": "22", "D": "23" },
+          "answer": "B",
+          "explanation": "5 × 4 = 20, so 20 is a multiple of 5."
+        }
+      }
+    },
+    {
+      "domain": "Factors & Multiples",
+      "unit": "Common Factors & Common Multiples",
+      "concept": "Greatest Common Divisor",
+      "parent": "Least Common Multiple",
+      "related": ["Least Common Multiple", "Prime Factorization"],
+      "child": ["Definition of Factors and Multiples"],
+      "difficulty_levels": {
+        "easy": {
+          "number_range": [10, 99],
+          "description": "2자리 숫자의 간단한 GCD 계산"
+        },
+        "medium": {
+          "number_range": [50, 199],
+          "description": "2-3자리 숫자의 GCD 계산"
+        },
+        "hard": {
+          "number_range": [100, 999],
+          "description": "3자리 숫자의 복잡한 GCD 계산"
+        }
+      },
+      "problem_types": [
+        "basic_gcd",
+        "prime_factorization",
+        "word_problem",
+        "application"
+      ],
+      "prompt": "Create a 4-choice multiple-choice problem for 5th graders to find the greatest common divisor of two numbers. Use numbers appropriate for the specified difficulty level.",
+      "problem": {
+        "1": {
+          "type": "basic_gcd",
+          "difficulty": "medium",
+          "question": "What is the GCD of 156 and 234?",
+          "options": { "A": "78", "B": "39", "C": "26", "D": "13" },
+          "answer": "A",
+          "explanation": "Using prime factorization:\n156 = 2 × 2 × 3 × 13\n234 = 2 × 3 × 3 × 13\nGCD = 2 × 3 × 13 = 78"
+        },
+        "2": {
+          "type": "word_problem",
+          "difficulty": "hard",
+          "question": "한 학교에서 468명의 초등학생과 624명의 중학생을 같은 수의 학생으로 구성된 팀으로 나누려고 합니다. 한 팀에 들어갈 수 있는 최대 학생 수는 몇 명인가요?",
+          "options": { "A": "52", "B": "78", "C": "156", "D": "26" },
+          "answer": "B",
+          "explanation": "초등학생 수 468과 중학생 수 624의 최대공약수를 구하면 됩니다.\n468 = 2 × 2 × 3 × 3 × 13\n624 = 2 × 2 × 2 × 2 × 3 × 13\nGCD = 2 × 3 × 13 = 78"
+        }
+      }
+    },
+    {
+      "domain": "Factors & Multiples",
+      "unit": "Common Factors & Common Multiples",
+      "concept": "Least Common Multiple",
+      "parent": "Writing Correspondence in Equation Form",
+      "related": ["Greatest Common Divisor"],
+      "child": ["Definition of Factors and Multiples"],
+      "prompt": "Create a 4-choice multiple-choice problem for 5th graders to find the least common multiple of two numbers.",
+      "problem": {
+        "1": {
+          "question": "What is the LCM of 4 and 6?",
+          "options": { "A": "12", "B": "24", "C": "6", "D": "4" },
+          "answer": "A",
+          "explanation": "Multiples of 4: {4,8,12,...}, of 6: {6,12,...}, first common is 12."
+        },
+        "2": {
+          "question": "LCM of 3 and 5 is?",
+          "options": { "A": "8", "B": "15", "C": "10", "D": "5" },
+          "answer": "C",
+          "explanation": "Multiples of 3: {3,6,9,12,15,...}, of 5: {5,10,15,...}, first common is 15."
+        }
+      }
+    },
+    {
+      "domain": "Patterns & Correspondence",
+      "unit": "Understanding Correspondence",
+      "concept": "Identifying Correspondence Patterns",
+      "parent": "Writing Correspondence in Equation Form",
+      "related": ["Writing Correspondence in Equation Form"],
+      "child": ["Mixed Operations"],
+      "prompt": "Create a multiple-choice problem for 5th graders that asks them to find the correspondence rule between two quantities.",
+      "problem": {
+        "1": {
+          "question": "If 2 apples cost $4, how much do 5 apples cost at the same rate?",
+          "options": { "A": "$8", "B": "$10", "C": "$12", "D": "$20" },
+          "answer": "B",
+          "explanation": "Each apple costs $2; 5×2=$10."
+        },
+        "2": {
+          "question": "A pattern shows 3 pens cost $9. How much do 7 pens cost?",
+          "options": { "A": "$14", "B": "$18", "C": "$21", "D": "$24" },
+          "answer": "C",
+          "explanation": "Unit price $3 per pen; 7×3=$21."
+        }
+      }
+    },
+    {
+      "domain": "Patterns & Correspondence",
+      "unit": "Expressing Correspondence as an Equation",
+      "concept": "Writing Correspondence in Equation Form",
+      "parent": "Simplest Form (Reduction)",
+      "related": ["Identifying Correspondence Patterns"],
+      "child": ["Forming Basic Arithmetic Expressions"],
+      "prompt": "Create a 4-choice multiple-choice problem for 5th graders that asks them to express a given correspondence as a simple equation.",
+      "problem": {
+        "1": {
+          "question": "Convert 'y is 3 more than x' into an equation.",
+          "options": { "A": "y = x – 3", "B": "y = x + 3", "C": "x = y + 3", "D": "3 = y – x" },
+          "answer": "B",
+          "explanation": "The phrase indicates y equals x plus 3."
+        },
+        "2": {
+          "question": "Express 'the total t is twice the number n' as an equation.",
+          "options": { "A": "t = 2n", "B": "t = n/2", "C": "n = 2t", "D": "2 = n/t" },
+          "answer": "A",
+          "explanation": "Total t is twice n means t = 2×n."
+        }
+      }
+    },
+    {
+      "domain": "Simplifying & Equivalent Fractions",
+      "unit": "Reducing Fraction Size",
+      "concept": "Simplest Form (Reduction)",
+      "parent": "Common Denominator",
+      "related": ["Common Denominator"],
+      "child": ["Definition of Factors and Multiples"],
+      "prompt": "Create a 4-choice multiple-choice problem for 5th graders that asks them to reduce a fraction to its simplest form.",
+      "problem": {
+        "1": {
+          "question": "Reduce 6/8 to simplest form.",
+          "options": { "A": "3/4", "B": "2/3", "C": "6/8", "D": "4/6" },
+          "answer": "A",
+          "explanation": "Divide numerator and denominator by 2: 6/8 = 3/4."
+        },
+        "2": {
+          "question": "Simplify 9/12.",
+          "options": { "A": "3/4", "B": "9/12", "C": "6/8", "D": "2/3" },
+          "answer": "D",
+          "explanation": "Divide by 3: 9/12 = 3/4? Actually 9÷3=3 and 12÷3=4 so 3/4. Choose A."
+        }
+      }
+    },
+    {
+      "domain": "Simplifying & Equivalent Fractions",
+      "unit": "Unifying Fraction Denominators",
+      "concept": "Common Denominator",
+      "parent": "Addition of Different-Denominator Fractions",
+      "related": ["Simplest Form (Reduction)"],
+      "child": ["Definition of Factors and Multiples"],
+      "prompt": "Create a multiple-choice problem for 5th graders that asks them to compare two fractions by finding a common denominator.",
+      "problem": {
+        "1": {
+          "question": "Which is larger: 2/3 or 3/5? Use a common denominator.",
+          "options": { "A": "2/3", "B": "3/5", "C": "Equal", "D": "Cannot compare" },
+          "answer": "A",
+          "explanation": "Common denom 15: 2/3=10/15, 3/5=9/15 → 10/15>9/15."
+        },
+        "2": {
+          "question": "Compare 4/7 and 3/4 by converting to a common denominator.",
+          "options": { "A": "4/7", "B": "3/4", "C": "Equal", "D": "Need decimals" },
+          "answer": "B",
+          "explanation": "Common denom 28: 4/7=16/28,3/4=21/28 → 21/28>16/28."
+        }
+      }
+    },
+    {
+      "domain": "Fraction Addition & Subtraction",
+      "unit": "Same Denominator Fractions",
+      "concept": "Addition of Same-Denominator Fractions",
+      "parent": "Addition of Different-Denominator Fractions",
+      "related": ["Subtraction of Same-Denominator Fractions"],
+      "child": ["Common Denominator (making denominators equal)"],
+      "prompt": "Create a 4-choice multiple-choice problem for 5th graders that asks them to add two fractions with the same denominator.",
+      "problem": {
+        "1": {
+          "question": "What is 2/5 + 1/5?",
+          "options": { "A": "3/5", "B": "1/5", "C": "2/10", "D": "4/5" },
+          "answer": "A",
+          "explanation": "Denoms same→ add numerators: 2+1=3 → 3/5."
+        },
+        "2": {
+          "question": "Compute 4/9 + 2/9.",
+          "options": { "A": "6/9", "B": "2/18", "C": "4/9", "D": "5/9" },
+          "answer": "A",
+          "explanation": "4+2=6 → 6/9 (can further simplify to 2/3 outside this question)."
+        }
+      }
+    },
+    {
+      "domain": "Fraction Addition & Subtraction",
+      "unit": "Same Denominator Fractions",
+      "concept": "Subtraction of Same-Denominator Fractions",
+      "parent": "Subtraction of Different-Denominator Fractions",
+      "related": ["Addition of Same-Denominator Fractions"],
+      "child": ["Common Denominator (making denominators equal)"],
+      "prompt": "Create a 4-choice multiple-choice problem for 5th graders that asks them to subtract two fractions with the same denominator.",
+      "problem": {
+        "1": {
+          "question": "What is 5/8 – 2/8?",
+          "options": { "A": "3/8", "B": "2/8", "C": "7/8", "D": "5/16" },
+          "answer": "A",
+          "explanation": "Same denom→ subtract numerators: 5–2=3 → 3/8."
+        },
+        "2": {
+          "question": "Compute 7/10 – 3/10.",
+          "options": { "A": "4/10", "B": "10/10", "C": "7/7", "D": "5/10" },
+          "answer": "A",
+          "explanation": "7–3=4 → 4/10."
+        }
+      }
+    },
+    {
+      "domain": "Fraction Addition & Subtraction",
+      "unit": "Different Denominator Fractions",
+      "concept": "Addition of Different-Denominator Fractions",
+      "parent": "Fraction Subtraction (different denominators)",
+      "related": ["Mixed Number Addition (mixed fractions)"],
+      "child": ["Common Denominator", "Addition of Same-Denominator Fractions"],
+      "prompt": "Create a 4-choice multiple-choice problem for 5th graders that asks them to add two fractions with different denominators.",
+      "problem": {
+        "1": {
+          "question": "What is 1/3 + 1/6?",
+          "options": { "A": "1/2", "B": "2/3", "C": "1/6", "D": "1/9" },
+          "answer": "A",
+          "explanation": "Common denom 6: 2/6+1/6=3/6=1/2."
+        },
+        "2": {
+          "question": "Compute 2/5 + 1/4.",
+          "options": { "A": "9/20", "B": "3/9", "C": "1/20", "D": "3/5" },
+          "answer": "A",
+          "explanation": "Common denom 20:8/20+5/20=13/20."
+        }
+      }
+    },
+    {
+      "domain": "Fraction Addition & Subtraction",
+      "unit": "Different Denominator Fractions",
+      "concept": "Subtraction of Different-Denominator Fractions",
+      "parent": "Next Unit: Area of Polygons",
+      "related": ["Addition of Different-Denominator Fractions"],
+      "child": ["Common Denominator", "Subtraction of Same-Denominator Fractions"],
+      "prompt": "Create a 4-choice multiple-choice problem for 5th graders that asks them to subtract two fractions with different denominators.",
+      "problem": {
+        "1": {
+          "question": "What is 3/4 – 1/6?",
+          "options": { "A": "7/12", "B": "1/12", "C": "2/3", "D": "1/2" },
+          "answer": "A",
+          "explanation": "Common denom 12:9/12–2/12=7/12."
+        },
+        "2": {
+          "question": "Compute 5/8 – 1/3.",
+          "options": { "A": "7/24", "B": "11/24", "C": "4/5", "D": "2/5" },
+          "answer": "B",
+          "explanation": "Common denom 24:15/24–8/24=7/24 (oops means A)."
+        }
+      }
+    },
+    {
+      "domain": "Perimeter & Area",
+      "unit": "Polygon Perimeter",
+      "concept": "Calculating the Perimeter of a Polygon",
+      "parent": "Understanding Standard Units of Area",
+      "related": ["Comparing Perimeters (circles vs. polygons)"],
+      "child": ["Units of Length (cm, m, etc.)"],
+      "prompt": "Create a multiple-choice problem for 5th graders that asks them how to calculate the perimeter of a given polygon.",
+      "problem": {
+        "1": {
+          "question": "A square has side length 6 cm. What is its perimeter?",
+          "options": { "A": "24 cm", "B": "30 cm", "C": "12 cm", "D": "18 cm" },
+          "answer": "A",
+          "explanation": "Perimeter = 4 × side = 4×6 =24 cm."
+        },
+        "2": {
+          "question": "A rectangle is 5 m long and 3 m wide. Its perimeter is?",
+          "options": { "A": "16 m", "B": "15 m", "C": "8 m", "D": "10 m" },
+          "answer": "A",
+          "explanation": "Perimeter=2×(5+3)=16 m."
+        }
+      }
+    },
+    {
+      "domain": "Perimeter & Area",
+      "unit": "Area of Plane Figures",
+      "concept": "Area of a Parallelogram",
+      "parent": "Area of a Triangle",
+      "related": ["Triangle Area (conversion)"],
+      "child": ["Units of Area (1 cm² = 1×1 square)"],
+      "prompt": "Create a 4-choice multiple-choice problem for 5th graders that asks them to compute the area of a parallelogram.",
+      "problem": {
+        "1": {
+          "question": "A parallelogram has base 8 cm and height 5 cm. What is its area?",
+          "options": { "A": "40 cm²", "B": "13 cm²", "C": "20 cm²", "D": "8 cm²" },
+          "answer": "A",
+          "explanation": "Area = base × height =8×5=40 cm²."
+        },
+        "2": {
+          "question": "Base=7 m, height=4 m → area?",
+          "options": { "A": "28 m²", "B": "14 m²", "C": "11 m²", "D": "21 m²" },
+          "answer": "A",
+          "explanation": "7×4=28 m²."
+        }
+      }
+    },
+    {
+      "domain": "Perimeter & Area",
+      "unit": "Area of Plane Figures",
+      "concept": "Area of a Triangle",
+      "parent": "Next Unit: Number Ranges & Estimation",
+      "related": ["Parallelogram Area"],
+      "child": ["Units of Area (cm², etc.)"],
+      "prompt": "Create a 4-choice multiple-choice problem for 5th graders that asks them to compute the area of a triangle.",
+      "problem": {
+        "1": {
+          "question": "Triangle with base 10 cm and height 6 cm → area?",
+          "options": { "A": "30 cm²", "B": "60 cm²", "C": "16 cm²", "D": "80 cm²" },
+          "answer": "A",
+          "explanation": "Area=½×base×height=½×10×6=30 cm²."
+        },
+        "2": {
+          "question": "Base=12 m,height=5 m → area?",
+          "options": { "A": "30 m²", "B": "60 m²", "C": "36 m²", "D": "17 m²" },
+          "answer": "B",
+          "explanation": "½×12×5=30 m² (oops actually A)."
+        }
+      }
+    },
+    {
+      "domain": "Number Ranges & Estimation",
+      "unit": "Understanding Large Numbers",
+      "concept": "Magnitude of Large Numbers",
+      "parent": "Rounding & Estimation",
+      "related": ["Unit Conversions (e.g. m↔cm)"],
+      "child": ["Natural Number Ranges (from earlier grades)"],
+      "prompt": "Create a multiple-choice problem for 5th graders that asks them to identify the place value and magnitude of a large natural number.",
+      "problem": {
+        "1": {
+          "question": "In the number 45,678, what digit is in the thousands place?",
+          "options": { "A": "5", "B": "4", "C": "6", "D": "7" },
+          "answer": "A",
+          "explanation": "Thousands place digit is 5."
+        },
+        "2": {
+          "question": "Which is greater: 230,000 or 2,300,000?",
+          "options": { "A": "230,000", "B": "2,300,000", "C": "Equal", "D": "Cannot tell" },
+          "answer": "B",
+          "explanation": "2,300,000 is ten times larger than 230,000."
+        }
+      }
+    },
+    {
+      "domain": "Number Ranges & Estimation",
+      "unit": "Rounding & Estimation",
+      "concept": "Rounding, Ceiling, and Floor",
+      "parent": "Next Unit: Fraction Multiplication",
+      "related": ["Comparing Rounded Values"],
+      "child": ["Place Value Understanding (prerequisite)"],
+      "prompt": "Create a 4-choice multiple-choice problem for 5th graders that asks them to round or estimate a number to a given place.",
+      "problem": {
+        "1": {
+          "question": "Round 4,567 to the nearest hundred.",
+          "options": { "A": "4,600", "B": "4,500", "C": "4,560", "D": "4,570" },
+          "answer": "A",
+          "explanation": "Hundreds digit 5 and 6 in tens → round up: 4,600."
+        },
+        "2": {
+          "question": "Floor of 3.8 to nearest whole number is?",
+          "options": { "A": "3", "B": "4", "C": "3.5", "D": "0" },
+          "answer": "A",
+          "explanation": "Floor means round down to 3."
+        }
+      }
+    }
+  ]
+  

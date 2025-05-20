@@ -1,0 +1,133 @@
+{
+    "domains": [
+        {
+            "name": "수와 연산",
+            "units": [
+                {
+                    "name": "약수와 배수",
+                    "concepts": [
+                        {
+                            "name": "최대공약수",
+                            "prerequisites": ["약수 구하기"],
+                            "related_concepts": ["최소공배수", "약수"],
+                            "difficulty_progression": {
+                                "하": {
+                                    "number_range": "1~50",
+                                    "problem_types": [
+                                        "두 수의 최대공약수 찾기",
+                                        "약수 나열 후 공통 약수 중 최댓값 찾기"
+                                    ]
+                                },
+                                "중": {
+                                    "number_range": "1~100",
+                                    "problem_types": [
+                                        "여러 물건을 동일하게 나누기",
+                                        "실생활 응용 문제",
+                                        "세 수의 최대공약수 찾기"
+                                    ]
+                                },
+                                "상": {
+                                    "number_range": "1~1000",
+                                    "problem_types": [
+                                        "복합 문제 해결",
+                                        "최대공약수의 성질 활용",
+                                        "최대공약수와 최소공배수의 관계"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "최소공배수",
+                            "prerequisites": ["배수 구하기"],
+                            "related_concepts": ["최대공약수", "배수"],
+                            "difficulty_progression": {
+                                "하": {
+                                    "number_range": "1~50",
+                                    "problem_types": [
+                                        "두 수의 최소공배수 찾기",
+                                        "배수 나열 후 공통 배수 중 최솟값 찾기"
+                                    ]
+                                },
+                                "중": {
+                                    "number_range": "1~100",
+                                    "problem_types": [
+                                        "주기가 다른 상황의 일치 시점 찾기",
+                                        "실생활 응용 문제"
+                                    ]
+                                },
+                                "상": {
+                                    "number_range": "1~1000",
+                                    "problem_types": [
+                                        "복합 문제 해결",
+                                        "최소공배수의 성질 활용",
+                                        "세 수 이상의 최소공배수"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "약수 구하기",
+                            "prerequisites": [],
+                            "related_concepts": ["최대공약수", "소수"],
+                            "difficulty_progression": {
+                                "하": {
+                                    "number_range": "1~50",
+                                    "problem_types": [
+                                        "한 수의 모든 약수 찾기",
+                                        "약수의 개수 구하기"
+                                    ]
+                                },
+                                "중": {
+                                    "number_range": "1~100",
+                                    "problem_types": [
+                                        "약수의 합 구하기",
+                                        "약수의 성질 이해하기",
+                                        "실생활 응용 문제"
+                                    ]
+                                },
+                                "상": {
+                                    "number_range": "1~1000",
+                                    "problem_types": [
+                                        "약수의 규칙성 찾기",
+                                        "약수와 배수의 관계",
+                                        "복합 문제 해결"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "name": "소수 판별",
+                            "prerequisites": ["약수 구하기"],
+                            "related_concepts": ["약수", "소인수분해"],
+                            "difficulty_progression": {
+                                "하": {
+                                    "number_range": "1~50",
+                                    "problem_types": [
+                                        "소수 찾기",
+                                        "소수와 합성수 구분하기"
+                                    ]
+                                },
+                                "중": {
+                                    "number_range": "1~100",
+                                    "problem_types": [
+                                        "소수의 성질 이해하기",
+                                        "소인수분해하기",
+                                        "실생활 응용 문제"
+                                    ]
+                                },
+                                "상": {
+                                    "number_range": "1~1000",
+                                    "problem_types": [
+                                        "에라토스테네스의 체 활용",
+                                        "소수의 규칙성 찾기",
+                                        "복합 문제 해결"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+} 

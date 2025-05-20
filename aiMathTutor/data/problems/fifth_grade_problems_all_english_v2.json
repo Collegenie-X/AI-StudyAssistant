@@ -1,0 +1,3846 @@
+[
+    {
+      "domain": "Number & Operations",
+      "unit": "Addition & Subtraction of Natural Numbers",
+      "concept": "Carrying and Borrowing",
+      "problem": {
+        "1": {
+          "question": "A local library buys 293 new books this month and 435 more next month. How many books did they purchase in total?",
+          "options": {
+            "A": 728,
+            "B": 765,
+            "C": 843,
+            "D": 687
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 728 because a local library buys 293 new books this month and 435 more next month. how many books did they purchase in total gives 728."
+        },
+        "2": {
+          "question": "A local library buys 386 new books this month and 189 more next month. How many books did they purchase in total?",
+          "options": {
+            "A": 675,
+            "B": 575,
+            "C": 525,
+            "D": 606
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 575 because a local library buys 386 new books this month and 189 more next month. how many books did they purchase in total gives 575."
+        },
+        "3": {
+          "question": "A local library buys 196 new books this month and 305 more next month. How many books did they purchase in total?",
+          "options": {
+            "A": 578,
+            "B": 501,
+            "C": 539,
+            "D": 464
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 501 because a local library buys 196 new books this month and 305 more next month. how many books did they purchase in total gives 501."
+        },
+        "4": {
+          "question": "A local library buys 348 new books this month and 152 more next month. How many books did they purchase in total?",
+          "options": {
+            "A": 478,
+            "B": 575,
+            "C": 500,
+            "D": 549
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 500 because a local library buys 348 new books this month and 152 more next month. how many books did they purchase in total gives 500."
+        },
+        "5": {
+          "question": "A local library buys 356 new books this month and 403 more next month. How many books did they purchase in total?",
+          "options": {
+            "A": 832,
+            "B": 759,
+            "C": 844,
+            "D": 690
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 759 because a local library buys 356 new books this month and 403 more next month. how many books did they purchase in total gives 759."
+        }
+      }
+    },
+    {
+      "domain": "Number & Operations",
+      "unit": "Addition & Subtraction of Natural Numbers",
+      "concept": "Sequential Subtraction",
+      "problem": {
+        "1": {
+          "question": "A warehouse had 751 boxes in stock. After shipping out 104 boxes, how many boxes remain?",
+          "options": {
+            "A": 692,
+            "B": 741,
+            "C": 612,
+            "D": 647
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 647 because a warehouse had 751 boxes in stock. after shipping out 104 boxes, how many boxes remain gives 647."
+        },
+        "2": {
+          "question": "A warehouse had 400 boxes in stock. After shipping out 68 boxes, how many boxes remain?",
+          "options": {
+            "A": 370,
+            "B": 332,
+            "C": 300,
+            "D": 360
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 332 because a warehouse had 400 boxes in stock. after shipping out 68 boxes, how many boxes remain gives 332."
+        },
+        "3": {
+          "question": "A warehouse had 563 boxes in stock. After shipping out 94 boxes, how many boxes remain?",
+          "options": {
+            "A": 533,
+            "B": 498,
+            "C": 461,
+            "D": 469
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 469 because a warehouse had 563 boxes in stock. after shipping out 94 boxes, how many boxes remain gives 469."
+        },
+        "4": {
+          "question": "A warehouse had 389 boxes in stock. After shipping out 153 boxes, how many boxes remain?",
+          "options": {
+            "A": 215,
+            "B": 264,
+            "C": 251,
+            "D": 236
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 236 because a warehouse had 389 boxes in stock. after shipping out 153 boxes, how many boxes remain gives 236."
+        },
+        "5": {
+          "question": "A warehouse had 602 boxes in stock. After shipping out 105 boxes, how many boxes remain?",
+          "options": {
+            "A": 587,
+            "B": 541,
+            "C": 452,
+            "D": 497
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 497 because a warehouse had 602 boxes in stock. after shipping out 105 boxes, how many boxes remain gives 497."
+        }
+      }
+    },
+    {
+      "domain": "Number & Operations",
+      "unit": "Addition & Subtraction of Natural Numbers",
+      "concept": "Estimating Sums",
+      "problem": {
+        "1": {
+          "question": "Calculate 17 + 5.",
+          "options": {
+            "A": 21,
+            "B": 26,
+            "C": 24,
+            "D": 22
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 22 because calculate 17 + 5. gives 22."
+        },
+        "2": {
+          "question": "Calculate 7 + 4.",
+          "options": {
+            "A": 13,
+            "B": 10,
+            "C": 11,
+            "D": 12
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 11 because calculate 7 + 4. gives 11."
+        },
+        "3": {
+          "question": "Calculate 8 + 1.",
+          "options": {
+            "A": 8,
+            "B": 9,
+            "C": 10,
+            "D": 11
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 9 because calculate 8 + 1. gives 9."
+        },
+        "4": {
+          "question": "Calculate 12 + 4.",
+          "options": {
+            "A": 17,
+            "B": 15,
+            "C": 16,
+            "D": 18
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 16 because calculate 12 + 4. gives 16."
+        },
+        "5": {
+          "question": "Calculate 6 + 5.",
+          "options": {
+            "A": 10,
+            "B": 11,
+            "C": 12,
+            "D": 13
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 11 because calculate 6 + 5. gives 11."
+        }
+      }
+    },
+    {
+      "domain": "Number & Operations",
+      "unit": "Multiplication & Division",
+      "concept": "Multiplication Tables",
+      "problem": {
+        "1": {
+          "question": "A factory produces 20 gadgets every hour. How many gadgets will it produce in 9 hours?",
+          "options": {
+            "A": 177,
+            "B": 192,
+            "C": 180,
+            "D": 209
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 180 because a factory produces 20 gadgets every hour. how many gadgets will it produce in 9 hours gives 180."
+        },
+        "2": {
+          "question": "A factory produces 45 gadgets every hour. How many gadgets will it produce in 7 hours?",
+          "options": {
+            "A": 330,
+            "B": 315,
+            "C": 285,
+            "D": 377
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 315 because a factory produces 45 gadgets every hour. how many gadgets will it produce in 7 hours gives 315."
+        },
+        "3": {
+          "question": "A factory produces 42 gadgets every hour. How many gadgets will it produce in 9 hours?",
+          "options": {
+            "A": 396,
+            "B": 378,
+            "C": 376,
+            "D": 427
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 378 because a factory produces 42 gadgets every hour. how many gadgets will it produce in 9 hours gives 378."
+        },
+        "4": {
+          "question": "A factory produces 47 gadgets every hour. How many gadgets will it produce in 6 hours?",
+          "options": {
+            "A": 262,
+            "B": 330,
+            "C": 294,
+            "D": 282
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 282 because a factory produces 47 gadgets every hour. how many gadgets will it produce in 6 hours gives 282."
+        },
+        "5": {
+          "question": "A factory produces 43 gadgets every hour. How many gadgets will it produce in 10 hours?",
+          "options": {
+            "A": 430,
+            "B": 468,
+            "C": 421,
+            "D": 511
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 430 because a factory produces 43 gadgets every hour. how many gadgets will it produce in 10 hours gives 430."
+        }
+      }
+    },
+    {
+      "domain": "Number & Operations",
+      "unit": "Multiplication & Division",
+      "concept": "Division with Remainders",
+      "problem": {
+        "1": {
+          "question": "There are 524 candies to share equally among 13 children. How many candies does each child get and how many are left over?",
+          "options": {
+            "A": "40 R5",
+            "B": "40 R4",
+            "C": "41 R4",
+            "D": "39 R4"
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 40 R4 because there are 524 candies to share equally among 13 children. how many candies does each child get and how many are left over gives 40 R4."
+        },
+        "2": {
+          "question": "There are 370 candies to share equally among 8 children. How many candies does each child get and how many are left over?",
+          "options": {
+            "A": "46 R3",
+            "B": "47 R2",
+            "C": "45 R2",
+            "D": "46 R2"
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 46 R2 because there are 370 candies to share equally among 8 children. how many candies does each child get and how many are left over gives 46 R2."
+        },
+        "3": {
+          "question": "There are 272 candies to share equally among 7 children. How many candies does each child get and how many are left over?",
+          "options": {
+            "A": "37 R6",
+            "B": "38 R6",
+            "C": "39 R6",
+            "D": "38 R7"
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 38 R6 because there are 272 candies to share equally among 7 children. how many candies does each child get and how many are left over gives 38 R6."
+        },
+        "4": {
+          "question": "There are 431 candies to share equally among 13 children. How many candies does each child get and how many are left over?",
+          "options": {
+            "A": "34 R2",
+            "B": "33 R3",
+            "C": "33 R2",
+            "D": "32 R2"
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 33 R2 because there are 431 candies to share equally among 13 children. how many candies does each child get and how many are left over gives 33 R2."
+        },
+        "5": {
+          "question": "There are 207 candies to share equally among 14 children. How many candies does each child get and how many are left over?",
+          "options": {
+            "A": "15 R11",
+            "B": "14 R11",
+            "C": "14 R12",
+            "D": "13 R11"
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 14 R11 because there are 207 candies to share equally among 14 children. how many candies does each child get and how many are left over gives 14 R11."
+        }
+      }
+    },
+    {
+      "domain": "Number & Operations",
+      "unit": "Multiplication & Division",
+      "concept": "Grouping Models",
+      "problem": {
+        "1": {
+          "question": "Calculate 18 + 5.",
+          "options": {
+            "A": 21,
+            "B": 24,
+            "C": 26,
+            "D": 23
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 23 because calculate 18 + 5. gives 23."
+        },
+        "2": {
+          "question": "Calculate 15 + 1.",
+          "options": {
+            "A": 16,
+            "B": 18,
+            "C": 15,
+            "D": 17
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 16 because calculate 15 + 1. gives 16."
+        },
+        "3": {
+          "question": "Calculate 13 + 5.",
+          "options": {
+            "A": 19,
+            "B": 17,
+            "C": 18,
+            "D": 20
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 18 because calculate 13 + 5. gives 18."
+        },
+        "4": {
+          "question": "Calculate 18 + 1.",
+          "options": {
+            "A": 21,
+            "B": 18,
+            "C": 19,
+            "D": 20
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 19 because calculate 18 + 1. gives 19."
+        },
+        "5": {
+          "question": "Calculate 15 + 2.",
+          "options": {
+            "A": 18,
+            "B": 16,
+            "C": 19,
+            "D": 17
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 17 because calculate 15 + 2. gives 17."
+        }
+      }
+    },
+    {
+      "domain": "Number & Operations",
+      "unit": "Order of Operations",
+      "concept": "Parenthesis-free Mixed Calculations",
+      "problem": {
+        "1": {
+          "question": "Calculate 12 + 4.",
+          "options": {
+            "A": 16,
+            "B": 15,
+            "C": 18,
+            "D": 17
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 16 because calculate 12 + 4. gives 16."
+        },
+        "2": {
+          "question": "Calculate 17 + 4.",
+          "options": {
+            "A": 21,
+            "B": 23,
+            "C": 24,
+            "D": 19
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 21 because calculate 17 + 4. gives 21."
+        },
+        "3": {
+          "question": "Calculate 5 + 3.",
+          "options": {
+            "A": 7,
+            "B": 8,
+            "C": 10,
+            "D": 9
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 8 because calculate 5 + 3. gives 8."
+        },
+        "4": {
+          "question": "Calculate 20 + 2.",
+          "options": {
+            "A": 20,
+            "B": 26,
+            "C": 22,
+            "D": 23
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 22 because calculate 20 + 2. gives 22."
+        },
+        "5": {
+          "question": "Calculate 14 + 2.",
+          "options": {
+            "A": 17,
+            "B": 16,
+            "C": 18,
+            "D": 15
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 16 because calculate 14 + 2. gives 16."
+        }
+      }
+    },
+    {
+      "domain": "Number & Operations",
+      "unit": "Order of Operations",
+      "concept": "Parenthesis-inclusive Mixed Calculations",
+      "problem": {
+        "1": {
+          "question": "Calculate 9 + 2.",
+          "options": {
+            "A": 12,
+            "B": 10,
+            "C": 11,
+            "D": 13
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 11 because calculate 9 + 2. gives 11."
+        },
+        "2": {
+          "question": "Calculate 17 + 4.",
+          "options": {
+            "A": 19,
+            "B": 21,
+            "C": 22,
+            "D": 24
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 21 because calculate 17 + 4. gives 21."
+        },
+        "3": {
+          "question": "Calculate 9 + 2.",
+          "options": {
+            "A": 11,
+            "B": 13,
+            "C": 12,
+            "D": 10
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 11 because calculate 9 + 2. gives 11."
+        },
+        "4": {
+          "question": "Calculate 8 + 5.",
+          "options": {
+            "A": 14,
+            "B": 12,
+            "C": 15,
+            "D": 13
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 13 because calculate 8 + 5. gives 13."
+        },
+        "5": {
+          "question": "Calculate 8 + 4.",
+          "options": {
+            "A": 13,
+            "B": 11,
+            "C": 14,
+            "D": 12
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 12 because calculate 8 + 4. gives 12."
+        }
+      }
+    },
+    {
+      "domain": "Number & Operations",
+      "unit": "Order of Operations",
+      "concept": "Nested Parentheses",
+      "problem": {
+        "1": {
+          "question": "Calculate 17 + 1.",
+          "options": {
+            "A": 17,
+            "B": 18,
+            "C": 20,
+            "D": 19
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 18 because calculate 17 + 1. gives 18."
+        },
+        "2": {
+          "question": "Calculate 19 + 4.",
+          "options": {
+            "A": 22,
+            "B": 23,
+            "C": 24,
+            "D": 26
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 23 because calculate 19 + 4. gives 23."
+        },
+        "3": {
+          "question": "Calculate 15 + 3.",
+          "options": {
+            "A": 20,
+            "B": 17,
+            "C": 18,
+            "D": 19
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 18 because calculate 15 + 3. gives 18."
+        },
+        "4": {
+          "question": "Calculate 8 + 2.",
+          "options": {
+            "A": 11,
+            "B": 10,
+            "C": 12,
+            "D": 9
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 10 because calculate 8 + 2. gives 10."
+        },
+        "5": {
+          "question": "Calculate 13 + 3.",
+          "options": {
+            "A": 18,
+            "B": 17,
+            "C": 15,
+            "D": 16
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 16 because calculate 13 + 3. gives 16."
+        }
+      }
+    },
+    {
+      "domain": "Fractions, Decimals & Ratios",
+      "unit": "Basic Fractions",
+      "concept": "Proper and Improper Fractions",
+      "problem": {
+        "1": {
+          "question": "Express the fraction 1/6 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": -0.83,
+            "B": 0.17,
+            "C": 2.17,
+            "D": 1.17
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 0.17 because express the fraction 1/6 in decimal form, rounded to two decimal places. gives 0.17."
+        },
+        "2": {
+          "question": "Express the fraction 4/3 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 1.33,
+            "B": 2.33,
+            "C": 3.33,
+            "D": 0.33000000000000007
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 1.33 because express the fraction 4/3 in decimal form, rounded to two decimal places. gives 1.33."
+        },
+        "3": {
+          "question": "Express the fraction 2/4 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 2.5,
+            "B": 0.5,
+            "C": 1.5,
+            "D": -0.5
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 0.5 because express the fraction 2/4 in decimal form, rounded to two decimal places. gives 0.5."
+        },
+        "4": {
+          "question": "Express the fraction 7/2 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 4.5,
+            "B": 2.5,
+            "C": 3.5,
+            "D": 5.5
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 3.5 because express the fraction 7/2 in decimal form, rounded to two decimal places. gives 3.5."
+        },
+        "5": {
+          "question": "Express the fraction 8/3 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 2.67,
+            "B": 4.67,
+            "C": 1.67,
+            "D": 3.67
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 2.67 because express the fraction 8/3 in decimal form, rounded to two decimal places. gives 2.67."
+        }
+      }
+    },
+    {
+      "domain": "Fractions, Decimals & Ratios",
+      "unit": "Basic Fractions",
+      "concept": "Mixed Numbers Conversion",
+      "problem": {
+        "1": {
+          "question": "Calculate 17 + 5.",
+          "options": {
+            "A": 22,
+            "B": 23,
+            "C": 26,
+            "D": 21
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 22 because calculate 17 + 5. gives 22."
+        },
+        "2": {
+          "question": "Calculate 6 + 5.",
+          "options": {
+            "A": 13,
+            "B": 10,
+            "C": 11,
+            "D": 12
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 11 because calculate 6 + 5. gives 11."
+        },
+        "3": {
+          "question": "Calculate 8 + 5.",
+          "options": {
+            "A": 12,
+            "B": 14,
+            "C": 15,
+            "D": 13
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 13 because calculate 8 + 5. gives 13."
+        },
+        "4": {
+          "question": "Calculate 11 + 5.",
+          "options": {
+            "A": 18,
+            "B": 17,
+            "C": 15,
+            "D": 16
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 16 because calculate 11 + 5. gives 16."
+        },
+        "5": {
+          "question": "Calculate 18 + 2.",
+          "options": {
+            "A": 20,
+            "B": 22,
+            "C": 18,
+            "D": 24
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 20 because calculate 18 + 2. gives 20."
+        }
+      }
+    },
+    {
+      "domain": "Fractions, Decimals & Ratios",
+      "unit": "Basic Fractions",
+      "concept": "Comparing Fractions",
+      "problem": {
+        "1": {
+          "question": "Express the fraction 4/5 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 2.8,
+            "B": 0.8,
+            "C": -0.19999999999999996,
+            "D": 1.8
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 0.8 because express the fraction 4/5 in decimal form, rounded to two decimal places. gives 0.8."
+        },
+        "2": {
+          "question": "Express the fraction 9/7 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 0.29000000000000004,
+            "B": 2.29,
+            "C": 1.29,
+            "D": 3.29
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 1.29 because express the fraction 9/7 in decimal form, rounded to two decimal places. gives 1.29."
+        },
+        "3": {
+          "question": "Express the fraction 8/3 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 2.67,
+            "B": 3.67,
+            "C": 4.67,
+            "D": 1.67
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 2.67 because express the fraction 8/3 in decimal form, rounded to two decimal places. gives 2.67."
+        },
+        "4": {
+          "question": "Express the fraction 6/3 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 3.0,
+            "B": 1.0,
+            "C": 2.0,
+            "D": 4.0
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 2.0 because express the fraction 6/3 in decimal form, rounded to two decimal places. gives 2.0."
+        },
+        "5": {
+          "question": "Express the fraction 9/6 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 3.5,
+            "B": 2.5,
+            "C": 1.5,
+            "D": 0.5
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 1.5 because express the fraction 9/6 in decimal form, rounded to two decimal places. gives 1.5."
+        }
+      }
+    },
+    {
+      "domain": "Fractions, Decimals & Ratios",
+      "unit": "Fraction Operations",
+      "concept": "Addition of Like Fractions",
+      "problem": {
+        "1": {
+          "question": "A local library buys 222 new books this month and 227 more next month. How many books did they purchase in total?",
+          "options": {
+            "A": 410,
+            "B": 456,
+            "C": 449,
+            "D": 514
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 449 because a local library buys 222 new books this month and 227 more next month. how many books did they purchase in total gives 449."
+        },
+        "2": {
+          "question": "A local library buys 161 new books this month and 252 more next month. How many books did they purchase in total?",
+          "options": {
+            "A": 381,
+            "B": 480,
+            "C": 413,
+            "D": 417
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 413 because a local library buys 161 new books this month and 252 more next month. how many books did they purchase in total gives 413."
+        },
+        "3": {
+          "question": "A local library buys 314 new books this month and 105 more next month. How many books did they purchase in total?",
+          "options": {
+            "A": 409,
+            "B": 442,
+            "C": 494,
+            "D": 419
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 419 because a local library buys 314 new books this month and 105 more next month. how many books did they purchase in total gives 419."
+        },
+        "4": {
+          "question": "A local library buys 107 new books this month and 391 more next month. How many books did they purchase in total?",
+          "options": {
+            "A": 498,
+            "B": 519,
+            "C": 585,
+            "D": 493
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 498 because a local library buys 107 new books this month and 391 more next month. how many books did they purchase in total gives 498."
+        },
+        "5": {
+          "question": "A local library buys 134 new books this month and 326 more next month. How many books did they purchase in total?",
+          "options": {
+            "A": 460,
+            "B": 487,
+            "C": 548,
+            "D": 425
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 460 because a local library buys 134 new books this month and 326 more next month. how many books did they purchase in total gives 460."
+        }
+      }
+    },
+    {
+      "domain": "Fractions, Decimals & Ratios",
+      "unit": "Fraction Operations",
+      "concept": "Subtraction of Like Fractions",
+      "problem": {
+        "1": {
+          "question": "A warehouse had 651 boxes in stock. After shipping out 121 boxes, how many boxes remain?",
+          "options": {
+            "A": 543,
+            "B": 530,
+            "C": 521,
+            "D": 599
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 530 because a warehouse had 651 boxes in stock. after shipping out 121 boxes, how many boxes remain gives 530."
+        },
+        "2": {
+          "question": "A warehouse had 536 boxes in stock. After shipping out 179 boxes, how many boxes remain?",
+          "options": {
+            "A": 322,
+            "B": 357,
+            "C": 383,
+            "D": 393
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 357 because a warehouse had 536 boxes in stock. after shipping out 179 boxes, how many boxes remain gives 357."
+        },
+        "3": {
+          "question": "A warehouse had 489 boxes in stock. After shipping out 168 boxes, how many boxes remain?",
+          "options": {
+            "A": 377,
+            "B": 349,
+            "C": 311,
+            "D": 321
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 321 because a warehouse had 489 boxes in stock. after shipping out 168 boxes, how many boxes remain gives 321."
+        },
+        "4": {
+          "question": "A warehouse had 787 boxes in stock. After shipping out 65 boxes, how many boxes remain?",
+          "options": {
+            "A": 722,
+            "B": 703,
+            "C": 794,
+            "D": 851
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 722 because a warehouse had 787 boxes in stock. after shipping out 65 boxes, how many boxes remain gives 722."
+        },
+        "5": {
+          "question": "A warehouse had 735 boxes in stock. After shipping out 91 boxes, how many boxes remain?",
+          "options": {
+            "A": 651,
+            "B": 629,
+            "C": 644,
+            "D": 756
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 644 because a warehouse had 735 boxes in stock. after shipping out 91 boxes, how many boxes remain gives 644."
+        }
+      }
+    },
+    {
+      "domain": "Fractions, Decimals & Ratios",
+      "unit": "Fraction Operations",
+      "concept": "Addition with Unlike Denominators",
+      "problem": {
+        "1": {
+          "question": "A local library buys 192 new books this month and 425 more next month. How many books did they purchase in total?",
+          "options": {
+            "A": 586,
+            "B": 617,
+            "C": 684,
+            "D": 644
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 617 because a local library buys 192 new books this month and 425 more next month. how many books did they purchase in total gives 617."
+        },
+        "2": {
+          "question": "A local library buys 262 new books this month and 451 more next month. How many books did they purchase in total?",
+          "options": {
+            "A": 851,
+            "B": 731,
+            "C": 713,
+            "D": 708
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 713 because a local library buys 262 new books this month and 451 more next month. how many books did they purchase in total gives 713."
+        },
+        "3": {
+          "question": "A local library buys 375 new books this month and 357 more next month. How many books did they purchase in total?",
+          "options": {
+            "A": 768,
+            "B": 844,
+            "C": 731,
+            "D": 732
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 732 because a local library buys 375 new books this month and 357 more next month. how many books did they purchase in total gives 732."
+        },
+        "4": {
+          "question": "A local library buys 197 new books this month and 195 more next month. How many books did they purchase in total?",
+          "options": {
+            "A": 383,
+            "B": 392,
+            "C": 426,
+            "D": 443
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 392 because a local library buys 197 new books this month and 195 more next month. how many books did they purchase in total gives 392."
+        },
+        "5": {
+          "question": "A local library buys 360 new books this month and 357 more next month. How many books did they purchase in total?",
+          "options": {
+            "A": 814,
+            "B": 667,
+            "C": 717,
+            "D": 756
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 717 because a local library buys 360 new books this month and 357 more next month. how many books did they purchase in total gives 717."
+        }
+      }
+    },
+    {
+      "domain": "Fractions, Decimals & Ratios",
+      "unit": "Fraction Operations",
+      "concept": "Subtraction with Unlike Denominators",
+      "problem": {
+        "1": {
+          "question": "A warehouse had 712 boxes in stock. After shipping out 147 boxes, how many boxes remain?",
+          "options": {
+            "A": 565,
+            "B": 654,
+            "C": 582,
+            "D": 523
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 565 because a warehouse had 712 boxes in stock. after shipping out 147 boxes, how many boxes remain gives 565."
+        },
+        "2": {
+          "question": "A warehouse had 644 boxes in stock. After shipping out 165 boxes, how many boxes remain?",
+          "options": {
+            "A": 479,
+            "B": 552,
+            "C": 522,
+            "D": 445
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 479 because a warehouse had 644 boxes in stock. after shipping out 165 boxes, how many boxes remain gives 479."
+        },
+        "3": {
+          "question": "A warehouse had 328 boxes in stock. After shipping out 176 boxes, how many boxes remain?",
+          "options": {
+            "A": 165,
+            "B": 152,
+            "C": 169,
+            "D": 149
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 152 because a warehouse had 328 boxes in stock. after shipping out 176 boxes, how many boxes remain gives 152."
+        },
+        "4": {
+          "question": "A warehouse had 626 boxes in stock. After shipping out 140 boxes, how many boxes remain?",
+          "options": {
+            "A": 486,
+            "B": 476,
+            "C": 573,
+            "D": 500
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 486 because a warehouse had 626 boxes in stock. after shipping out 140 boxes, how many boxes remain gives 486."
+        },
+        "5": {
+          "question": "A warehouse had 419 boxes in stock. After shipping out 78 boxes, how many boxes remain?",
+          "options": {
+            "A": 384,
+            "B": 341,
+            "C": 354,
+            "D": 336
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 341 because a warehouse had 419 boxes in stock. after shipping out 78 boxes, how many boxes remain gives 341."
+        }
+      }
+    },
+    {
+      "domain": "Fractions, Decimals & Ratios",
+      "unit": "Decimal Operations",
+      "concept": "Adding Decimals",
+      "problem": {
+        "1": {
+          "question": "Express the fraction 7/3 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 4.33,
+            "B": 2.33,
+            "C": 3.33,
+            "D": 1.33
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 2.33 because express the fraction 7/3 in decimal form, rounded to two decimal places. gives 2.33."
+        },
+        "2": {
+          "question": "Express the fraction 6/3 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 4.0,
+            "B": 3.0,
+            "C": 2.0,
+            "D": 1.0
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 2.0 because express the fraction 6/3 in decimal form, rounded to two decimal places. gives 2.0."
+        },
+        "3": {
+          "question": "Express the fraction 6/7 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": -0.14,
+            "B": 1.8599999999999999,
+            "C": 2.86,
+            "D": 0.86
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 0.86 because express the fraction 6/7 in decimal form, rounded to two decimal places. gives 0.86."
+        },
+        "4": {
+          "question": "Express the fraction 1/6 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 2.17,
+            "B": -0.83,
+            "C": 1.17,
+            "D": 0.17
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 0.17 because express the fraction 1/6 in decimal form, rounded to two decimal places. gives 0.17."
+        },
+        "5": {
+          "question": "Express the fraction 8/8 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 0.0,
+            "B": 1.0,
+            "C": 3.0,
+            "D": 2.0
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 1.0 because express the fraction 8/8 in decimal form, rounded to two decimal places. gives 1.0."
+        }
+      }
+    },
+    {
+      "domain": "Fractions, Decimals & Ratios",
+      "unit": "Decimal Operations",
+      "concept": "Subtracting Decimals",
+      "problem": {
+        "1": {
+          "question": "Express the fraction 2/4 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 2.5,
+            "B": -0.5,
+            "C": 0.5,
+            "D": 1.5
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 0.5 because express the fraction 2/4 in decimal form, rounded to two decimal places. gives 0.5."
+        },
+        "2": {
+          "question": "Express the fraction 7/4 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 0.75,
+            "B": 2.75,
+            "C": 3.75,
+            "D": 1.75
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 1.75 because express the fraction 7/4 in decimal form, rounded to two decimal places. gives 1.75."
+        },
+        "3": {
+          "question": "Express the fraction 4/7 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 2.57,
+            "B": 0.57,
+            "C": 1.5699999999999998,
+            "D": -0.43000000000000005
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 0.57 because express the fraction 4/7 in decimal form, rounded to two decimal places. gives 0.57."
+        },
+        "4": {
+          "question": "Express the fraction 6/1 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 6.0,
+            "B": 7.0,
+            "C": 8.0,
+            "D": 5.0
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 6.0 because express the fraction 6/1 in decimal form, rounded to two decimal places. gives 6.0."
+        },
+        "5": {
+          "question": "Express the fraction 5/9 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": -0.43999999999999995,
+            "B": 1.56,
+            "C": 2.56,
+            "D": 0.56
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 0.56 because express the fraction 5/9 in decimal form, rounded to two decimal places. gives 0.56."
+        }
+      }
+    },
+    {
+      "domain": "Fractions, Decimals & Ratios",
+      "unit": "Decimal Operations",
+      "concept": "Multiplying Decimals",
+      "problem": {
+        "1": {
+          "question": "Express the fraction 9/6 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 0.5,
+            "B": 2.5,
+            "C": 1.5,
+            "D": 3.5
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 1.5 because express the fraction 9/6 in decimal form, rounded to two decimal places. gives 1.5."
+        },
+        "2": {
+          "question": "Express the fraction 8/2 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 5.0,
+            "B": 3.0,
+            "C": 6.0,
+            "D": 4.0
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 4.0 because express the fraction 8/2 in decimal form, rounded to two decimal places. gives 4.0."
+        },
+        "3": {
+          "question": "Express the fraction 1/1 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 1.0,
+            "B": 0.0,
+            "C": 2.0,
+            "D": 3.0
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 1.0 because express the fraction 1/1 in decimal form, rounded to two decimal places. gives 1.0."
+        },
+        "4": {
+          "question": "Express the fraction 2/8 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 1.25,
+            "B": -0.75,
+            "C": 2.25,
+            "D": 0.25
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 0.25 because express the fraction 2/8 in decimal form, rounded to two decimal places. gives 0.25."
+        },
+        "5": {
+          "question": "Express the fraction 3/5 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 1.6,
+            "B": 0.6,
+            "C": 2.6,
+            "D": -0.4
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 0.6 because express the fraction 3/5 in decimal form, rounded to two decimal places. gives 0.6."
+        }
+      }
+    },
+    {
+      "domain": "Fractions, Decimals & Ratios",
+      "unit": "Decimal Operations",
+      "concept": "Dividing Decimals",
+      "problem": {
+        "1": {
+          "question": "Express the fraction 5/5 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 2.0,
+            "B": 0.0,
+            "C": 3.0,
+            "D": 1.0
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 1.0 because express the fraction 5/5 in decimal form, rounded to two decimal places. gives 1.0."
+        },
+        "2": {
+          "question": "Express the fraction 7/5 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 0.3999999999999999,
+            "B": 2.4,
+            "C": 1.4,
+            "D": 3.4
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 1.4 because express the fraction 7/5 in decimal form, rounded to two decimal places. gives 1.4."
+        },
+        "3": {
+          "question": "Express the fraction 1/1 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 1.0,
+            "B": 3.0,
+            "C": 2.0,
+            "D": 0.0
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 1.0 because express the fraction 1/1 in decimal form, rounded to two decimal places. gives 1.0."
+        },
+        "4": {
+          "question": "Express the fraction 9/7 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": 1.29,
+            "B": 3.29,
+            "C": 0.29000000000000004,
+            "D": 2.29
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 1.29 because express the fraction 9/7 in decimal form, rounded to two decimal places. gives 1.29."
+        },
+        "5": {
+          "question": "Express the fraction 1/5 in decimal form, rounded to two decimal places.",
+          "options": {
+            "A": -0.8,
+            "B": 0.2,
+            "C": 1.2,
+            "D": 2.2
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 0.2 because express the fraction 1/5 in decimal form, rounded to two decimal places. gives 0.2."
+        }
+      }
+    },
+    {
+      "domain": "Fractions, Decimals & Ratios",
+      "unit": "Ratios & Percentages",
+      "concept": "Ratio Concepts",
+      "problem": {
+        "1": {
+          "question": "What is 10% of 802?",
+          "options": {
+            "A": 75.2,
+            "B": 91.2,
+            "C": 84.2,
+            "D": 80.2
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 80.2 because what is 10% of 802 gives 80.2."
+        },
+        "2": {
+          "question": "What is 10% of 233?",
+          "options": {
+            "A": 21.3,
+            "B": 23.3,
+            "C": 26.3,
+            "D": 24.3
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 23.3 because what is 10% of 233 gives 23.3."
+        },
+        "3": {
+          "question": "What is 10% of 134?",
+          "options": {
+            "A": 13.4,
+            "B": 14.4,
+            "C": 12.4,
+            "D": 15.4
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 13.4 because what is 10% of 134 gives 13.4."
+        },
+        "4": {
+          "question": "What is 20% of 222?",
+          "options": {
+            "A": 48.4,
+            "B": 44.4,
+            "C": 43.4,
+            "D": 50.4
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 44.4 because what is 20% of 222 gives 44.4."
+        },
+        "5": {
+          "question": "What is 10% of 454?",
+          "options": {
+            "A": 43.4,
+            "B": 47.4,
+            "C": 45.4,
+            "D": 53.4
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 45.4 because what is 10% of 454 gives 45.4."
+        }
+      }
+    },
+    {
+      "domain": "Fractions, Decimals & Ratios",
+      "unit": "Ratios & Percentages",
+      "concept": "Percent Calculations",
+      "problem": {
+        "1": {
+          "question": "What is 25% of 413?",
+          "options": {
+            "A": 120.25,
+            "B": 101.25,
+            "C": 103.25,
+            "D": 107.25
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 103.25 because what is 25% of 413 gives 103.25."
+        },
+        "2": {
+          "question": "What is 20% of 495?",
+          "options": {
+            "A": 90.0,
+            "B": 100.0,
+            "C": 99.0,
+            "D": 112.0
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 99.0 because what is 20% of 495 gives 99.0."
+        },
+        "3": {
+          "question": "What is 10% of 456?",
+          "options": {
+            "A": 45.6,
+            "B": 44.6,
+            "C": 50.6,
+            "D": 48.6
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 45.6 because what is 10% of 456 gives 45.6."
+        },
+        "4": {
+          "question": "What is 20% of 143?",
+          "options": {
+            "A": 28.6,
+            "B": 32.6,
+            "C": 30.6,
+            "D": 26.6
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 28.6 because what is 20% of 143 gives 28.6."
+        },
+        "5": {
+          "question": "What is 20% of 117?",
+          "options": {
+            "A": 26.4,
+            "B": 22.4,
+            "C": 23.4,
+            "D": 25.4
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 23.4 because what is 20% of 117 gives 23.4."
+        }
+      }
+    },
+    {
+      "domain": "Fractions, Decimals & Ratios",
+      "unit": "Ratios & Percentages",
+      "concept": "Percentage Increase and Decrease",
+      "problem": {
+        "1": {
+          "question": "What is 25% of 151?",
+          "options": {
+            "A": 38.75,
+            "B": 36.75,
+            "C": 37.75,
+            "D": 43.75
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 37.75 because what is 25% of 151 gives 37.75."
+        },
+        "2": {
+          "question": "What is 15% of 985?",
+          "options": {
+            "A": 145.75,
+            "B": 155.75,
+            "C": 147.75,
+            "D": 162.75
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 147.75 because what is 15% of 985 gives 147.75."
+        },
+        "3": {
+          "question": "What is 25% of 341?",
+          "options": {
+            "A": 97.25,
+            "B": 85.25,
+            "C": 84.25,
+            "D": 90.25
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 85.25 because what is 25% of 341 gives 85.25."
+        },
+        "4": {
+          "question": "What is 10% of 250?",
+          "options": {
+            "A": 25.0,
+            "B": 23.0,
+            "C": 27.0,
+            "D": 28.0
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 25.0 because what is 10% of 250 gives 25.0."
+        },
+        "5": {
+          "question": "What is 10% of 438?",
+          "options": {
+            "A": 41.8,
+            "B": 44.8,
+            "C": 43.8,
+            "D": 49.8
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 43.8 because what is 10% of 438 gives 43.8."
+        }
+      }
+    },
+    {
+      "domain": "Measurement & Geometry",
+      "unit": "Lengths, Mass & Volume",
+      "concept": "Unit Conversion",
+      "problem": {
+        "1": {
+          "question": "Calculate 5 + 1.",
+          "options": {
+            "A": 7,
+            "B": 6,
+            "C": 8,
+            "D": 5
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 6 because calculate 5 + 1. gives 6."
+        },
+        "2": {
+          "question": "Calculate 16 + 3.",
+          "options": {
+            "A": 18,
+            "B": 19,
+            "C": 20,
+            "D": 21
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 19 because calculate 16 + 3. gives 19."
+        },
+        "3": {
+          "question": "Calculate 16 + 3.",
+          "options": {
+            "A": 19,
+            "B": 20,
+            "C": 18,
+            "D": 21
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 19 because calculate 16 + 3. gives 19."
+        },
+        "4": {
+          "question": "Calculate 9 + 5.",
+          "options": {
+            "A": 16,
+            "B": 13,
+            "C": 14,
+            "D": 15
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 14 because calculate 9 + 5. gives 14."
+        },
+        "5": {
+          "question": "Calculate 17 + 2.",
+          "options": {
+            "A": 20,
+            "B": 18,
+            "C": 21,
+            "D": 19
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 19 because calculate 17 + 2. gives 19."
+        }
+      }
+    },
+    {
+      "domain": "Measurement & Geometry",
+      "unit": "Lengths, Mass & Volume",
+      "concept": "Reading Scales",
+      "problem": {
+        "1": {
+          "question": "Calculate 19 + 5.",
+          "options": {
+            "A": 22,
+            "B": 24,
+            "C": 26,
+            "D": 27
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 24 because calculate 19 + 5. gives 24."
+        },
+        "2": {
+          "question": "Calculate 16 + 2.",
+          "options": {
+            "A": 20,
+            "B": 19,
+            "C": 17,
+            "D": 18
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 18 because calculate 16 + 2. gives 18."
+        },
+        "3": {
+          "question": "Calculate 11 + 5.",
+          "options": {
+            "A": 16,
+            "B": 15,
+            "C": 18,
+            "D": 17
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 16 because calculate 11 + 5. gives 16."
+        },
+        "4": {
+          "question": "Calculate 18 + 1.",
+          "options": {
+            "A": 19,
+            "B": 18,
+            "C": 21,
+            "D": 20
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 19 because calculate 18 + 1. gives 19."
+        },
+        "5": {
+          "question": "Calculate 7 + 3.",
+          "options": {
+            "A": 9,
+            "B": 12,
+            "C": 11,
+            "D": 10
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 10 because calculate 7 + 3. gives 10."
+        }
+      }
+    },
+    {
+      "domain": "Measurement & Geometry",
+      "unit": "Lengths, Mass & Volume",
+      "concept": "Estimating Measures",
+      "problem": {
+        "1": {
+          "question": "Calculate 16 + 4.",
+          "options": {
+            "A": 19,
+            "B": 20,
+            "C": 23,
+            "D": 21
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 20 because calculate 16 + 4. gives 20."
+        },
+        "2": {
+          "question": "Calculate 11 + 5.",
+          "options": {
+            "A": 18,
+            "B": 17,
+            "C": 15,
+            "D": 16
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 16 because calculate 11 + 5. gives 16."
+        },
+        "3": {
+          "question": "Calculate 20 + 2.",
+          "options": {
+            "A": 26,
+            "B": 23,
+            "C": 22,
+            "D": 20
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 22 because calculate 20 + 2. gives 22."
+        },
+        "4": {
+          "question": "Calculate 8 + 1.",
+          "options": {
+            "A": 11,
+            "B": 8,
+            "C": 9,
+            "D": 10
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 9 because calculate 8 + 1. gives 9."
+        },
+        "5": {
+          "question": "Calculate 10 + 1.",
+          "options": {
+            "A": 11,
+            "B": 10,
+            "C": 12,
+            "D": 13
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 11 because calculate 10 + 1. gives 11."
+        }
+      }
+    },
+    {
+      "domain": "Measurement & Geometry",
+      "unit": "Angles & Triangles",
+      "concept": "Types of Angles",
+      "problem": {
+        "1": {
+          "question": "Calculate 5 + 1.",
+          "options": {
+            "A": 8,
+            "B": 7,
+            "C": 6,
+            "D": 5
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 6 because calculate 5 + 1. gives 6."
+        },
+        "2": {
+          "question": "Calculate 5 + 1.",
+          "options": {
+            "A": 7,
+            "B": 6,
+            "C": 5,
+            "D": 8
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 6 because calculate 5 + 1. gives 6."
+        },
+        "3": {
+          "question": "Calculate 19 + 3.",
+          "options": {
+            "A": 22,
+            "B": 25,
+            "C": 20,
+            "D": 24
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 22 because calculate 19 + 3. gives 22."
+        },
+        "4": {
+          "question": "Calculate 10 + 5.",
+          "options": {
+            "A": 14,
+            "B": 16,
+            "C": 15,
+            "D": 17
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 15 because calculate 10 + 5. gives 15."
+        },
+        "5": {
+          "question": "Calculate 13 + 5.",
+          "options": {
+            "A": 20,
+            "B": 19,
+            "C": 18,
+            "D": 17
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 18 because calculate 13 + 5. gives 18."
+        }
+      }
+    },
+    {
+      "domain": "Measurement & Geometry",
+      "unit": "Angles & Triangles",
+      "concept": "Angle Sum of Triangle",
+      "problem": {
+        "1": {
+          "question": "Calculate 6 + 5.",
+          "options": {
+            "A": 12,
+            "B": 13,
+            "C": 10,
+            "D": 11
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 11 because calculate 6 + 5. gives 11."
+        },
+        "2": {
+          "question": "Calculate 6 + 2.",
+          "options": {
+            "A": 8,
+            "B": 9,
+            "C": 7,
+            "D": 10
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 8 because calculate 6 + 2. gives 8."
+        },
+        "3": {
+          "question": "Calculate 10 + 3.",
+          "options": {
+            "A": 13,
+            "B": 15,
+            "C": 12,
+            "D": 14
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 13 because calculate 10 + 3. gives 13."
+        },
+        "4": {
+          "question": "Calculate 13 + 5.",
+          "options": {
+            "A": 20,
+            "B": 19,
+            "C": 18,
+            "D": 17
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 18 because calculate 13 + 5. gives 18."
+        },
+        "5": {
+          "question": "Calculate 17 + 2.",
+          "options": {
+            "A": 21,
+            "B": 18,
+            "C": 20,
+            "D": 19
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 19 because calculate 17 + 2. gives 19."
+        }
+      }
+    },
+    {
+      "domain": "Measurement & Geometry",
+      "unit": "Angles & Triangles",
+      "concept": "Constructing Angles",
+      "problem": {
+        "1": {
+          "question": "Calculate 15 + 3.",
+          "options": {
+            "A": 17,
+            "B": 18,
+            "C": 20,
+            "D": 19
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 18 because calculate 15 + 3. gives 18."
+        },
+        "2": {
+          "question": "Calculate 10 + 4.",
+          "options": {
+            "A": 15,
+            "B": 14,
+            "C": 16,
+            "D": 13
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 14 because calculate 10 + 4. gives 14."
+        },
+        "3": {
+          "question": "Calculate 16 + 5.",
+          "options": {
+            "A": 22,
+            "B": 21,
+            "C": 25,
+            "D": 20
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 21 because calculate 16 + 5. gives 21."
+        },
+        "4": {
+          "question": "Calculate 11 + 5.",
+          "options": {
+            "A": 17,
+            "B": 16,
+            "C": 18,
+            "D": 15
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 16 because calculate 11 + 5. gives 16."
+        },
+        "5": {
+          "question": "Calculate 19 + 5.",
+          "options": {
+            "A": 24,
+            "B": 28,
+            "C": 23,
+            "D": 26
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 24 because calculate 19 + 5. gives 24."
+        }
+      }
+    },
+    {
+      "domain": "Measurement & Geometry",
+      "unit": "Perimeter & Area",
+      "concept": "Perimeter of Polygons",
+      "problem": {
+        "1": {
+          "question": "A regular pentagon has side length 13 cm. What is its perimeter?",
+          "options": {
+            "A": 69,
+            "B": 73,
+            "C": 65,
+            "D": 64
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 65 because a regular pentagon has side length 13 cm. what is its perimeter gives 65."
+        },
+        "2": {
+          "question": "A regular pentagon has side length 8 cm. What is its perimeter?",
+          "options": {
+            "A": 40,
+            "B": 44,
+            "C": 39,
+            "D": 46
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 40 because a regular pentagon has side length 8 cm. what is its perimeter gives 40."
+        },
+        "3": {
+          "question": "A regular pentagon has side length 19 cm. What is its perimeter?",
+          "options": {
+            "A": 89,
+            "B": 97,
+            "C": 108,
+            "D": 95
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 95 because a regular pentagon has side length 19 cm. what is its perimeter gives 95."
+        },
+        "4": {
+          "question": "A regular pentagon has side length 18 cm. What is its perimeter?",
+          "options": {
+            "A": 92,
+            "B": 100,
+            "C": 84,
+            "D": 90
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 90 because a regular pentagon has side length 18 cm. what is its perimeter gives 90."
+        },
+        "5": {
+          "question": "A regular pentagon has side length 20 cm. What is its perimeter?",
+          "options": {
+            "A": 91,
+            "B": 107,
+            "C": 100,
+            "D": 120
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 100 because a regular pentagon has side length 20 cm. what is its perimeter gives 100."
+        }
+      }
+    },
+    {
+      "domain": "Measurement & Geometry",
+      "unit": "Perimeter & Area",
+      "concept": "Area of Rectangles",
+      "problem": {
+        "1": {
+          "question": "A rectangle has width 4 cm and height 9 cm. What is its area in cm²?",
+          "options": {
+            "A": 34,
+            "B": 36,
+            "C": 39,
+            "D": 40
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 36 because a rectangle has width 4 cm and height 9 cm. what is its area in cm² gives 36."
+        },
+        "2": {
+          "question": "A rectangle has width 4 cm and height 4 cm. What is its area in cm²?",
+          "options": {
+            "A": 17,
+            "B": 18,
+            "C": 16,
+            "D": 15
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 16 because a rectangle has width 4 cm and height 4 cm. what is its area in cm² gives 16."
+        },
+        "3": {
+          "question": "A rectangle has width 3 cm and height 4 cm. What is its area in cm²?",
+          "options": {
+            "A": 13,
+            "B": 12,
+            "C": 14,
+            "D": 11
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 12 because a rectangle has width 3 cm and height 4 cm. what is its area in cm² gives 12."
+        },
+        "4": {
+          "question": "A rectangle has width 11 cm and height 7 cm. What is its area in cm²?",
+          "options": {
+            "A": 73,
+            "B": 84,
+            "C": 85,
+            "D": 77
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 77 because a rectangle has width 11 cm and height 7 cm. what is its area in cm² gives 77."
+        },
+        "5": {
+          "question": "A rectangle has width 8 cm and height 4 cm. What is its area in cm²?",
+          "options": {
+            "A": 36,
+            "B": 35,
+            "C": 32,
+            "D": 30
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 32 because a rectangle has width 8 cm and height 4 cm. what is its area in cm² gives 32."
+        }
+      }
+    },
+    {
+      "domain": "Measurement & Geometry",
+      "unit": "Perimeter & Area",
+      "concept": "Area of Triangles",
+      "problem": {
+        "1": {
+          "question": "A triangle has base 12 cm and height 4 cm. What is its area?",
+          "options": {
+            "A": 24.0,
+            "B": 28.0,
+            "C": 23.0,
+            "D": 25.0
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 24.0 because a triangle has base 12 cm and height 4 cm. what is its area gives 24.0."
+        },
+        "2": {
+          "question": "A triangle has base 9 cm and height 9 cm. What is its area?",
+          "options": {
+            "A": 36.5,
+            "B": 41.5,
+            "C": 47.5,
+            "D": 40.5
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 40.5 because a triangle has base 9 cm and height 9 cm. what is its area gives 40.5."
+        },
+        "3": {
+          "question": "A triangle has base 13 cm and height 6 cm. What is its area?",
+          "options": {
+            "A": 39.0,
+            "B": 41.0,
+            "C": 45.0,
+            "D": 36.0
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 39.0 because a triangle has base 13 cm and height 6 cm. what is its area gives 39.0."
+        },
+        "4": {
+          "question": "A triangle has base 8 cm and height 5 cm. What is its area?",
+          "options": {
+            "A": 24.0,
+            "B": 20.0,
+            "C": 21.0,
+            "D": 19.0
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 20.0 because a triangle has base 8 cm and height 5 cm. what is its area gives 20.0."
+        },
+        "5": {
+          "question": "A triangle has base 6 cm and height 6 cm. What is its area?",
+          "options": {
+            "A": 19.0,
+            "B": 18.0,
+            "C": 17.0,
+            "D": 20.0
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 18.0 because a triangle has base 6 cm and height 6 cm. what is its area gives 18.0."
+        }
+      }
+    },
+    {
+      "domain": "Measurement & Geometry",
+      "unit": "Perimeter & Area",
+      "concept": "Area of Parallelograms",
+      "problem": {
+        "1": {
+          "question": "Calculate 11 + 4.",
+          "options": {
+            "A": 14,
+            "B": 16,
+            "C": 17,
+            "D": 15
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 15 because calculate 11 + 4. gives 15."
+        },
+        "2": {
+          "question": "Calculate 16 + 4.",
+          "options": {
+            "A": 19,
+            "B": 22,
+            "C": 20,
+            "D": 24
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 20 because calculate 16 + 4. gives 20."
+        },
+        "3": {
+          "question": "Calculate 20 + 1.",
+          "options": {
+            "A": 21,
+            "B": 19,
+            "C": 24,
+            "D": 22
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 21 because calculate 20 + 1. gives 21."
+        },
+        "4": {
+          "question": "Calculate 16 + 2.",
+          "options": {
+            "A": 20,
+            "B": 19,
+            "C": 18,
+            "D": 17
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 18 because calculate 16 + 2. gives 18."
+        },
+        "5": {
+          "question": "Calculate 15 + 4.",
+          "options": {
+            "A": 20,
+            "B": 18,
+            "C": 19,
+            "D": 21
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 19 because calculate 15 + 4. gives 19."
+        }
+      }
+    },
+    {
+      "domain": "Measurement & Geometry",
+      "unit": "Circles",
+      "concept": "Circumference",
+      "problem": {
+        "1": {
+          "question": "What is the circumference of a circle with radius 7 cm? Use π ≈ 3.14.",
+          "options": {
+            "A": 43.96,
+            "B": 42.96,
+            "C": 46.96,
+            "D": 49.96
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 43.96 because what is the circumference of a circle with radius 7 cm gives 43.96."
+        },
+        "2": {
+          "question": "What is the circumference of a circle with radius 9 cm? Use π ≈ 3.14.",
+          "options": {
+            "A": 64.52000000000001,
+            "B": 52.52,
+            "C": 58.52,
+            "D": 56.52
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 56.52 because what is the circumference of a circle with radius 9 cm gives 56.52."
+        },
+        "3": {
+          "question": "What is the circumference of a circle with radius 14 cm? Use π ≈ 3.14.",
+          "options": {
+            "A": 88.92,
+            "B": 102.92,
+            "C": 87.92,
+            "D": 84.92
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 87.92 because what is the circumference of a circle with radius 14 cm gives 87.92."
+        },
+        "4": {
+          "question": "What is the circumference of a circle with radius 11 cm? Use π ≈ 3.14.",
+          "options": {
+            "A": 69.08,
+            "B": 66.08,
+            "C": 74.08,
+            "D": 79.08
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 69.08 because what is the circumference of a circle with radius 11 cm gives 69.08."
+        },
+        "5": {
+          "question": "What is the circumference of a circle with radius 11 cm? Use π ≈ 3.14.",
+          "options": {
+            "A": 71.08,
+            "B": 69.08,
+            "C": 66.08,
+            "D": 79.08
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 69.08 because what is the circumference of a circle with radius 11 cm gives 69.08."
+        }
+      }
+    },
+    {
+      "domain": "Measurement & Geometry",
+      "unit": "Circles",
+      "concept": "Area of Circle",
+      "problem": {
+        "1": {
+          "question": "Calculate 16 + 4.",
+          "options": {
+            "A": 22,
+            "B": 23,
+            "C": 18,
+            "D": 20
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 20 because calculate 16 + 4. gives 20."
+        },
+        "2": {
+          "question": "Calculate 7 + 3.",
+          "options": {
+            "A": 9,
+            "B": 10,
+            "C": 12,
+            "D": 11
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 10 because calculate 7 + 3. gives 10."
+        },
+        "3": {
+          "question": "Calculate 13 + 1.",
+          "options": {
+            "A": 13,
+            "B": 14,
+            "C": 16,
+            "D": 15
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 14 because calculate 13 + 1. gives 14."
+        },
+        "4": {
+          "question": "Calculate 9 + 2.",
+          "options": {
+            "A": 13,
+            "B": 10,
+            "C": 11,
+            "D": 12
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 11 because calculate 9 + 2. gives 11."
+        },
+        "5": {
+          "question": "Calculate 20 + 2.",
+          "options": {
+            "A": 22,
+            "B": 20,
+            "C": 23,
+            "D": 25
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 22 because calculate 20 + 2. gives 22."
+        }
+      }
+    },
+    {
+      "domain": "Measurement & Geometry",
+      "unit": "3D Shapes",
+      "concept": "Volume of Cubes",
+      "problem": {
+        "1": {
+          "question": "What is the volume of a cube with side length 4 cm?",
+          "options": {
+            "A": 70,
+            "B": 63,
+            "C": 75,
+            "D": 64
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 64 because what is the volume of a cube with side length 4 cm gives 64."
+        },
+        "2": {
+          "question": "What is the volume of a cube with side length 8 cm?",
+          "options": {
+            "A": 583,
+            "B": 552,
+            "C": 512,
+            "D": 474
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 512 because what is the volume of a cube with side length 8 cm gives 512."
+        },
+        "3": {
+          "question": "What is the volume of a cube with side length 6 cm?",
+          "options": {
+            "A": 252,
+            "B": 211,
+            "C": 216,
+            "D": 217
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 216 because what is the volume of a cube with side length 6 cm gives 216."
+        },
+        "4": {
+          "question": "What is the volume of a cube with side length 5 cm?",
+          "options": {
+            "A": 125,
+            "B": 115,
+            "C": 131,
+            "D": 138
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 125 because what is the volume of a cube with side length 5 cm gives 125."
+        },
+        "5": {
+          "question": "What is the volume of a cube with side length 4 cm?",
+          "options": {
+            "A": 68,
+            "B": 59,
+            "C": 64,
+            "D": 75
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 64 because what is the volume of a cube with side length 4 cm gives 64."
+        }
+      }
+    },
+    {
+      "domain": "Measurement & Geometry",
+      "unit": "3D Shapes",
+      "concept": "Volume of Rectangular Prisms",
+      "problem": {
+        "1": {
+          "question": "What is the volume of a cube with side length 5 cm?",
+          "options": {
+            "A": 116,
+            "B": 133,
+            "C": 147,
+            "D": 125
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 125 because what is the volume of a cube with side length 5 cm gives 125."
+        },
+        "2": {
+          "question": "What is the volume of a cube with side length 4 cm?",
+          "options": {
+            "A": 59,
+            "B": 66,
+            "C": 64,
+            "D": 71
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 64 because what is the volume of a cube with side length 4 cm gives 64."
+        },
+        "3": {
+          "question": "What is the volume of a cube with side length 5 cm?",
+          "options": {
+            "A": 129,
+            "B": 125,
+            "C": 143,
+            "D": 119
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 125 because what is the volume of a cube with side length 5 cm gives 125."
+        },
+        "4": {
+          "question": "What is the volume of a cube with side length 7 cm?",
+          "options": {
+            "A": 350,
+            "B": 388,
+            "C": 343,
+            "D": 317
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 343 because what is the volume of a cube with side length 7 cm gives 343."
+        },
+        "5": {
+          "question": "What is the volume of a cube with side length 7 cm?",
+          "options": {
+            "A": 315,
+            "B": 343,
+            "C": 358,
+            "D": 389
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 343 because what is the volume of a cube with side length 7 cm gives 343."
+        }
+      }
+    },
+    {
+      "domain": "Measurement & Geometry",
+      "unit": "3D Shapes",
+      "concept": "Surface Area Concepts",
+      "problem": {
+        "1": {
+          "question": "Calculate 5 + 3.",
+          "options": {
+            "A": 7,
+            "B": 8,
+            "C": 9,
+            "D": 10
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 8 because calculate 5 + 3. gives 8."
+        },
+        "2": {
+          "question": "Calculate 9 + 2.",
+          "options": {
+            "A": 11,
+            "B": 12,
+            "C": 13,
+            "D": 10
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 11 because calculate 9 + 2. gives 11."
+        },
+        "3": {
+          "question": "Calculate 20 + 1.",
+          "options": {
+            "A": 21,
+            "B": 24,
+            "C": 19,
+            "D": 22
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 21 because calculate 20 + 1. gives 21."
+        },
+        "4": {
+          "question": "Calculate 6 + 2.",
+          "options": {
+            "A": 10,
+            "B": 9,
+            "C": 7,
+            "D": 8
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 8 because calculate 6 + 2. gives 8."
+        },
+        "5": {
+          "question": "Calculate 10 + 3.",
+          "options": {
+            "A": 15,
+            "B": 13,
+            "C": 12,
+            "D": 14
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 13 because calculate 10 + 3. gives 13."
+        }
+      }
+    },
+    {
+      "domain": "Data & Probability",
+      "unit": "Data Collection & Display",
+      "concept": "Frequency Tables",
+      "problem": {
+        "1": {
+          "question": "Calculate 13 + 4.",
+          "options": {
+            "A": 18,
+            "B": 17,
+            "C": 16,
+            "D": 19
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 17 because calculate 13 + 4. gives 17."
+        },
+        "2": {
+          "question": "Calculate 19 + 3.",
+          "options": {
+            "A": 24,
+            "B": 22,
+            "C": 20,
+            "D": 25
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 22 because calculate 19 + 3. gives 22."
+        },
+        "3": {
+          "question": "Calculate 6 + 4.",
+          "options": {
+            "A": 9,
+            "B": 11,
+            "C": 10,
+            "D": 12
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 10 because calculate 6 + 4. gives 10."
+        },
+        "4": {
+          "question": "Calculate 6 + 5.",
+          "options": {
+            "A": 11,
+            "B": 10,
+            "C": 13,
+            "D": 12
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 11 because calculate 6 + 5. gives 11."
+        },
+        "5": {
+          "question": "Calculate 18 + 3.",
+          "options": {
+            "A": 21,
+            "B": 25,
+            "C": 19,
+            "D": 22
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 21 because calculate 18 + 3. gives 21."
+        }
+      }
+    },
+    {
+      "domain": "Data & Probability",
+      "unit": "Data Collection & Display",
+      "concept": "Bar Graphs",
+      "problem": {
+        "1": {
+          "question": "Calculate 9 + 4.",
+          "options": {
+            "A": 13,
+            "B": 15,
+            "C": 12,
+            "D": 14
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 13 because calculate 9 + 4. gives 13."
+        },
+        "2": {
+          "question": "Calculate 8 + 2.",
+          "options": {
+            "A": 9,
+            "B": 12,
+            "C": 10,
+            "D": 11
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 10 because calculate 8 + 2. gives 10."
+        },
+        "3": {
+          "question": "Calculate 6 + 3.",
+          "options": {
+            "A": 8,
+            "B": 9,
+            "C": 10,
+            "D": 11
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 9 because calculate 6 + 3. gives 9."
+        },
+        "4": {
+          "question": "Calculate 9 + 2.",
+          "options": {
+            "A": 12,
+            "B": 10,
+            "C": 11,
+            "D": 13
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 11 because calculate 9 + 2. gives 11."
+        },
+        "5": {
+          "question": "Calculate 17 + 2.",
+          "options": {
+            "A": 19,
+            "B": 20,
+            "C": 21,
+            "D": 18
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 19 because calculate 17 + 2. gives 19."
+        }
+      }
+    },
+    {
+      "domain": "Data & Probability",
+      "unit": "Data Collection & Display",
+      "concept": "Line Graphs",
+      "problem": {
+        "1": {
+          "question": "Calculate 10 + 2.",
+          "options": {
+            "A": 12,
+            "B": 11,
+            "C": 14,
+            "D": 13
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 12 because calculate 10 + 2. gives 12."
+        },
+        "2": {
+          "question": "Calculate 7 + 4.",
+          "options": {
+            "A": 10,
+            "B": 11,
+            "C": 12,
+            "D": 13
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 11 because calculate 7 + 4. gives 11."
+        },
+        "3": {
+          "question": "Calculate 18 + 2.",
+          "options": {
+            "A": 20,
+            "B": 24,
+            "C": 21,
+            "D": 19
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 20 because calculate 18 + 2. gives 20."
+        },
+        "4": {
+          "question": "Calculate 15 + 1.",
+          "options": {
+            "A": 17,
+            "B": 18,
+            "C": 15,
+            "D": 16
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 16 because calculate 15 + 1. gives 16."
+        },
+        "5": {
+          "question": "Calculate 10 + 2.",
+          "options": {
+            "A": 11,
+            "B": 13,
+            "C": 12,
+            "D": 14
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 12 because calculate 10 + 2. gives 12."
+        }
+      }
+    },
+    {
+      "domain": "Data & Probability",
+      "unit": "Data Collection & Display",
+      "concept": "Circle Graphs",
+      "problem": {
+        "1": {
+          "question": "Calculate 6 + 5.",
+          "options": {
+            "A": 13,
+            "B": 11,
+            "C": 10,
+            "D": 12
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 11 because calculate 6 + 5. gives 11."
+        },
+        "2": {
+          "question": "Calculate 5 + 5.",
+          "options": {
+            "A": 10,
+            "B": 12,
+            "C": 11,
+            "D": 9
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 10 because calculate 5 + 5. gives 10."
+        },
+        "3": {
+          "question": "Calculate 10 + 2.",
+          "options": {
+            "A": 12,
+            "B": 13,
+            "C": 14,
+            "D": 11
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 12 because calculate 10 + 2. gives 12."
+        },
+        "4": {
+          "question": "Calculate 18 + 5.",
+          "options": {
+            "A": 26,
+            "B": 25,
+            "C": 22,
+            "D": 23
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 23 because calculate 18 + 5. gives 23."
+        },
+        "5": {
+          "question": "Calculate 7 + 4.",
+          "options": {
+            "A": 10,
+            "B": 11,
+            "C": 13,
+            "D": 12
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 11 because calculate 7 + 4. gives 11."
+        }
+      }
+    },
+    {
+      "domain": "Data & Probability",
+      "unit": "Measures of Central Tendency",
+      "concept": "Mean",
+      "problem": {
+        "1": {
+          "question": "Calculate 12 + 1.",
+          "options": {
+            "A": 15,
+            "B": 12,
+            "C": 13,
+            "D": 14
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 13 because calculate 12 + 1. gives 13."
+        },
+        "2": {
+          "question": "Calculate 8 + 1.",
+          "options": {
+            "A": 8,
+            "B": 9,
+            "C": 11,
+            "D": 10
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 9 because calculate 8 + 1. gives 9."
+        },
+        "3": {
+          "question": "Calculate 5 + 2.",
+          "options": {
+            "A": 8,
+            "B": 9,
+            "C": 7,
+            "D": 6
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 7 because calculate 5 + 2. gives 7."
+        },
+        "4": {
+          "question": "Calculate 8 + 3.",
+          "options": {
+            "A": 10,
+            "B": 12,
+            "C": 13,
+            "D": 11
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 11 because calculate 8 + 3. gives 11."
+        },
+        "5": {
+          "question": "Calculate 10 + 3.",
+          "options": {
+            "A": 12,
+            "B": 15,
+            "C": 13,
+            "D": 14
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 13 because calculate 10 + 3. gives 13."
+        }
+      }
+    },
+    {
+      "domain": "Data & Probability",
+      "unit": "Measures of Central Tendency",
+      "concept": "Median",
+      "problem": {
+        "1": {
+          "question": "Calculate 17 + 1.",
+          "options": {
+            "A": 20,
+            "B": 17,
+            "C": 19,
+            "D": 18
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 18 because calculate 17 + 1. gives 18."
+        },
+        "2": {
+          "question": "Calculate 8 + 5.",
+          "options": {
+            "A": 12,
+            "B": 15,
+            "C": 14,
+            "D": 13
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 13 because calculate 8 + 5. gives 13."
+        },
+        "3": {
+          "question": "Calculate 16 + 2.",
+          "options": {
+            "A": 17,
+            "B": 20,
+            "C": 18,
+            "D": 19
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 18 because calculate 16 + 2. gives 18."
+        },
+        "4": {
+          "question": "Calculate 13 + 5.",
+          "options": {
+            "A": 17,
+            "B": 20,
+            "C": 18,
+            "D": 19
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 18 because calculate 13 + 5. gives 18."
+        },
+        "5": {
+          "question": "Calculate 12 + 2.",
+          "options": {
+            "A": 16,
+            "B": 14,
+            "C": 13,
+            "D": 15
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 14 because calculate 12 + 2. gives 14."
+        }
+      }
+    },
+    {
+      "domain": "Data & Probability",
+      "unit": "Measures of Central Tendency",
+      "concept": "Mode",
+      "problem": {
+        "1": {
+          "question": "Calculate 15 + 3.",
+          "options": {
+            "A": 17,
+            "B": 20,
+            "C": 19,
+            "D": 18
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 18 because calculate 15 + 3. gives 18."
+        },
+        "2": {
+          "question": "Calculate 6 + 4.",
+          "options": {
+            "A": 9,
+            "B": 10,
+            "C": 11,
+            "D": 12
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 10 because calculate 6 + 4. gives 10."
+        },
+        "3": {
+          "question": "Calculate 20 + 2.",
+          "options": {
+            "A": 26,
+            "B": 22,
+            "C": 20,
+            "D": 24
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 22 because calculate 20 + 2. gives 22."
+        },
+        "4": {
+          "question": "Calculate 20 + 4.",
+          "options": {
+            "A": 25,
+            "B": 28,
+            "C": 22,
+            "D": 24
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 24 because calculate 20 + 4. gives 24."
+        },
+        "5": {
+          "question": "Calculate 11 + 5.",
+          "options": {
+            "A": 15,
+            "B": 17,
+            "C": 18,
+            "D": 16
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 16 because calculate 11 + 5. gives 16."
+        }
+      }
+    },
+    {
+      "domain": "Data & Probability",
+      "unit": "Probability Basics",
+      "concept": "Experimental Probability",
+      "problem": {
+        "1": {
+          "question": "Calculate 20 + 1.",
+          "options": {
+            "A": 21,
+            "B": 19,
+            "C": 22,
+            "D": 24
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 21 because calculate 20 + 1. gives 21."
+        },
+        "2": {
+          "question": "Calculate 6 + 4.",
+          "options": {
+            "A": 11,
+            "B": 10,
+            "C": 12,
+            "D": 9
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 10 because calculate 6 + 4. gives 10."
+        },
+        "3": {
+          "question": "Calculate 19 + 2.",
+          "options": {
+            "A": 19,
+            "B": 24,
+            "C": 22,
+            "D": 21
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 21 because calculate 19 + 2. gives 21."
+        },
+        "4": {
+          "question": "Calculate 19 + 4.",
+          "options": {
+            "A": 24,
+            "B": 26,
+            "C": 22,
+            "D": 23
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 23 because calculate 19 + 4. gives 23."
+        },
+        "5": {
+          "question": "Calculate 14 + 3.",
+          "options": {
+            "A": 18,
+            "B": 19,
+            "C": 17,
+            "D": 16
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 17 because calculate 14 + 3. gives 17."
+        }
+      }
+    },
+    {
+      "domain": "Data & Probability",
+      "unit": "Probability Basics",
+      "concept": "Theoretical Probability",
+      "problem": {
+        "1": {
+          "question": "Calculate 10 + 1.",
+          "options": {
+            "A": 11,
+            "B": 12,
+            "C": 10,
+            "D": 13
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 11 because calculate 10 + 1. gives 11."
+        },
+        "2": {
+          "question": "Calculate 11 + 2.",
+          "options": {
+            "A": 15,
+            "B": 13,
+            "C": 14,
+            "D": 12
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 13 because calculate 11 + 2. gives 13."
+        },
+        "3": {
+          "question": "Calculate 16 + 4.",
+          "options": {
+            "A": 22,
+            "B": 24,
+            "C": 18,
+            "D": 20
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 20 because calculate 16 + 4. gives 20."
+        },
+        "4": {
+          "question": "Calculate 5 + 4.",
+          "options": {
+            "A": 10,
+            "B": 9,
+            "C": 8,
+            "D": 11
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 9 because calculate 5 + 4. gives 9."
+        },
+        "5": {
+          "question": "Calculate 17 + 2.",
+          "options": {
+            "A": 20,
+            "B": 19,
+            "C": 18,
+            "D": 21
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 19 because calculate 17 + 2. gives 19."
+        }
+      }
+    },
+    {
+      "domain": "Algebraic Thinking",
+      "unit": "Expressions & Equations",
+      "concept": "Understanding Variables",
+      "problem": {
+        "1": {
+          "question": "Calculate 9 + 5.",
+          "options": {
+            "A": 16,
+            "B": 15,
+            "C": 13,
+            "D": 14
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 14 because calculate 9 + 5. gives 14."
+        },
+        "2": {
+          "question": "Calculate 9 + 4.",
+          "options": {
+            "A": 13,
+            "B": 15,
+            "C": 12,
+            "D": 14
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 13 because calculate 9 + 4. gives 13."
+        },
+        "3": {
+          "question": "Calculate 13 + 5.",
+          "options": {
+            "A": 18,
+            "B": 17,
+            "C": 20,
+            "D": 19
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 18 because calculate 13 + 5. gives 18."
+        },
+        "4": {
+          "question": "Calculate 6 + 2.",
+          "options": {
+            "A": 8,
+            "B": 7,
+            "C": 9,
+            "D": 10
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 8 because calculate 6 + 2. gives 8."
+        },
+        "5": {
+          "question": "Calculate 8 + 2.",
+          "options": {
+            "A": 12,
+            "B": 9,
+            "C": 11,
+            "D": 10
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 10 because calculate 8 + 2. gives 10."
+        }
+      }
+    },
+    {
+      "domain": "Algebraic Thinking",
+      "unit": "Expressions & Equations",
+      "concept": "Writing Simple Equations",
+      "problem": {
+        "1": {
+          "question": "Calculate 15 + 3.",
+          "options": {
+            "A": 18,
+            "B": 20,
+            "C": 19,
+            "D": 17
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 18 because calculate 15 + 3. gives 18."
+        },
+        "2": {
+          "question": "Calculate 18 + 1.",
+          "options": {
+            "A": 20,
+            "B": 21,
+            "C": 18,
+            "D": 19
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 19 because calculate 18 + 1. gives 19."
+        },
+        "3": {
+          "question": "Calculate 7 + 4.",
+          "options": {
+            "A": 12,
+            "B": 11,
+            "C": 10,
+            "D": 13
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 11 because calculate 7 + 4. gives 11."
+        },
+        "4": {
+          "question": "Calculate 17 + 1.",
+          "options": {
+            "A": 17,
+            "B": 18,
+            "C": 20,
+            "D": 19
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 18 because calculate 17 + 1. gives 18."
+        },
+        "5": {
+          "question": "Calculate 6 + 1.",
+          "options": {
+            "A": 9,
+            "B": 7,
+            "C": 8,
+            "D": 6
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 7 because calculate 6 + 1. gives 7."
+        }
+      }
+    },
+    {
+      "domain": "Algebraic Thinking",
+      "unit": "Expressions & Equations",
+      "concept": "Evaluating Expressions",
+      "problem": {
+        "1": {
+          "question": "Calculate 9 + 3.",
+          "options": {
+            "A": 13,
+            "B": 14,
+            "C": 11,
+            "D": 12
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 12 because calculate 9 + 3. gives 12."
+        },
+        "2": {
+          "question": "Calculate 20 + 5.",
+          "options": {
+            "A": 26,
+            "B": 24,
+            "C": 29,
+            "D": 25
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 25 because calculate 20 + 5. gives 25."
+        },
+        "3": {
+          "question": "Calculate 15 + 1.",
+          "options": {
+            "A": 15,
+            "B": 16,
+            "C": 17,
+            "D": 18
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 16 because calculate 15 + 1. gives 16."
+        },
+        "4": {
+          "question": "Calculate 19 + 2.",
+          "options": {
+            "A": 20,
+            "B": 21,
+            "C": 24,
+            "D": 23
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 21 because calculate 19 + 2. gives 21."
+        },
+        "5": {
+          "question": "Calculate 16 + 5.",
+          "options": {
+            "A": 21,
+            "B": 19,
+            "C": 22,
+            "D": 25
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 21 because calculate 16 + 5. gives 21."
+        }
+      }
+    },
+    {
+      "domain": "Algebraic Thinking",
+      "unit": "Patterns & Sequences",
+      "concept": "Arithmetic Sequences",
+      "problem": {
+        "1": {
+          "question": "Calculate 16 + 3.",
+          "options": {
+            "A": 19,
+            "B": 20,
+            "C": 21,
+            "D": 18
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 19 because calculate 16 + 3. gives 19."
+        },
+        "2": {
+          "question": "Calculate 6 + 3.",
+          "options": {
+            "A": 11,
+            "B": 9,
+            "C": 8,
+            "D": 10
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 9 because calculate 6 + 3. gives 9."
+        },
+        "3": {
+          "question": "Calculate 13 + 2.",
+          "options": {
+            "A": 14,
+            "B": 17,
+            "C": 16,
+            "D": 15
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 15 because calculate 13 + 2. gives 15."
+        },
+        "4": {
+          "question": "Calculate 17 + 5.",
+          "options": {
+            "A": 21,
+            "B": 23,
+            "C": 22,
+            "D": 25
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 22 because calculate 17 + 5. gives 22."
+        },
+        "5": {
+          "question": "Calculate 20 + 4.",
+          "options": {
+            "A": 28,
+            "B": 25,
+            "C": 24,
+            "D": 22
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 24 because calculate 20 + 4. gives 24."
+        }
+      }
+    },
+    {
+      "domain": "Algebraic Thinking",
+      "unit": "Patterns & Sequences",
+      "concept": "Geometric Sequences",
+      "problem": {
+        "1": {
+          "question": "Calculate 6 + 5.",
+          "options": {
+            "A": 12,
+            "B": 10,
+            "C": 13,
+            "D": 11
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 11 because calculate 6 + 5. gives 11."
+        },
+        "2": {
+          "question": "Calculate 16 + 4.",
+          "options": {
+            "A": 20,
+            "B": 21,
+            "C": 18,
+            "D": 23
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 20 because calculate 16 + 4. gives 20."
+        },
+        "3": {
+          "question": "Calculate 17 + 3.",
+          "options": {
+            "A": 22,
+            "B": 20,
+            "C": 18,
+            "D": 24
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 20 because calculate 17 + 3. gives 20."
+        },
+        "4": {
+          "question": "Calculate 7 + 4.",
+          "options": {
+            "A": 10,
+            "B": 12,
+            "C": 13,
+            "D": 11
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 11 because calculate 7 + 4. gives 11."
+        },
+        "5": {
+          "question": "Calculate 15 + 1.",
+          "options": {
+            "A": 18,
+            "B": 15,
+            "C": 16,
+            "D": 17
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 16 because calculate 15 + 1. gives 16."
+        }
+      }
+    },
+    {
+      "domain": "Algebraic Thinking",
+      "unit": "Patterns & Sequences",
+      "concept": "Rule Identification",
+      "problem": {
+        "1": {
+          "question": "Calculate 14 + 4.",
+          "options": {
+            "A": 19,
+            "B": 20,
+            "C": 18,
+            "D": 17
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 18 because calculate 14 + 4. gives 18."
+        },
+        "2": {
+          "question": "Calculate 19 + 4.",
+          "options": {
+            "A": 21,
+            "B": 25,
+            "C": 27,
+            "D": 23
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 23 because calculate 19 + 4. gives 23."
+        },
+        "3": {
+          "question": "Calculate 6 + 2.",
+          "options": {
+            "A": 9,
+            "B": 7,
+            "C": 10,
+            "D": 8
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 8 because calculate 6 + 2. gives 8."
+        },
+        "4": {
+          "question": "Calculate 15 + 1.",
+          "options": {
+            "A": 16,
+            "B": 18,
+            "C": 17,
+            "D": 15
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 16 because calculate 15 + 1. gives 16."
+        },
+        "5": {
+          "question": "Calculate 8 + 3.",
+          "options": {
+            "A": 12,
+            "B": 13,
+            "C": 11,
+            "D": 10
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 11 because calculate 8 + 3. gives 11."
+        }
+      }
+    },
+    {
+      "domain": "Number Theory",
+      "unit": "Factors & Multiples",
+      "concept": "Prime Factorization",
+      "problem": {
+        "1": {
+          "question": "Calculate 9 + 1.",
+          "options": {
+            "A": 9,
+            "B": 12,
+            "C": 10,
+            "D": 11
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 10 because calculate 9 + 1. gives 10."
+        },
+        "2": {
+          "question": "Calculate 15 + 5.",
+          "options": {
+            "A": 23,
+            "B": 22,
+            "C": 19,
+            "D": 20
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 20 because calculate 15 + 5. gives 20."
+        },
+        "3": {
+          "question": "Calculate 6 + 1.",
+          "options": {
+            "A": 7,
+            "B": 8,
+            "C": 6,
+            "D": 9
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 7 because calculate 6 + 1. gives 7."
+        },
+        "4": {
+          "question": "Calculate 9 + 3.",
+          "options": {
+            "A": 12,
+            "B": 13,
+            "C": 14,
+            "D": 11
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 12 because calculate 9 + 3. gives 12."
+        },
+        "5": {
+          "question": "Calculate 19 + 4.",
+          "options": {
+            "A": 25,
+            "B": 22,
+            "C": 26,
+            "D": 23
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 23 because calculate 19 + 4. gives 23."
+        }
+      }
+    },
+    {
+      "domain": "Number Theory",
+      "unit": "Factors & Multiples",
+      "concept": "GCD",
+      "problem": {
+        "1": {
+          "question": "Calculate 6 + 1.",
+          "options": {
+            "A": 6,
+            "B": 8,
+            "C": 9,
+            "D": 7
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 7 because calculate 6 + 1. gives 7."
+        },
+        "2": {
+          "question": "Calculate 16 + 5.",
+          "options": {
+            "A": 21,
+            "B": 24,
+            "C": 22,
+            "D": 20
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 21 because calculate 16 + 5. gives 21."
+        },
+        "3": {
+          "question": "Calculate 8 + 2.",
+          "options": {
+            "A": 9,
+            "B": 11,
+            "C": 10,
+            "D": 12
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 10 because calculate 8 + 2. gives 10."
+        },
+        "4": {
+          "question": "Calculate 17 + 3.",
+          "options": {
+            "A": 24,
+            "B": 18,
+            "C": 21,
+            "D": 20
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 20 because calculate 17 + 3. gives 20."
+        },
+        "5": {
+          "question": "Calculate 9 + 3.",
+          "options": {
+            "A": 14,
+            "B": 13,
+            "C": 12,
+            "D": 11
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 12 because calculate 9 + 3. gives 12."
+        }
+      }
+    },
+    {
+      "domain": "Number Theory",
+      "unit": "Factors & Multiples",
+      "concept": "LCM",
+      "problem": {
+        "1": {
+          "question": "Calculate 19 + 2.",
+          "options": {
+            "A": 19,
+            "B": 24,
+            "C": 21,
+            "D": 22
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 21 because calculate 19 + 2. gives 21."
+        },
+        "2": {
+          "question": "Calculate 15 + 5.",
+          "options": {
+            "A": 20,
+            "B": 18,
+            "C": 21,
+            "D": 23
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 20 because calculate 15 + 5. gives 20."
+        },
+        "3": {
+          "question": "Calculate 5 + 2.",
+          "options": {
+            "A": 7,
+            "B": 6,
+            "C": 8,
+            "D": 9
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 7 because calculate 5 + 2. gives 7."
+        },
+        "4": {
+          "question": "Calculate 6 + 4.",
+          "options": {
+            "A": 9,
+            "B": 11,
+            "C": 10,
+            "D": 12
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 10 because calculate 6 + 4. gives 10."
+        },
+        "5": {
+          "question": "Calculate 8 + 1.",
+          "options": {
+            "A": 9,
+            "B": 10,
+            "C": 11,
+            "D": 8
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 9 because calculate 8 + 1. gives 9."
+        }
+      }
+    },
+    {
+      "domain": "Number Theory",
+      "unit": "Advanced Number Concepts",
+      "concept": "Perfect Numbers",
+      "problem": {
+        "1": {
+          "question": "Calculate 18 + 2.",
+          "options": {
+            "A": 24,
+            "B": 22,
+            "C": 18,
+            "D": 20
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 20 because calculate 18 + 2. gives 20."
+        },
+        "2": {
+          "question": "Calculate 5 + 5.",
+          "options": {
+            "A": 10,
+            "B": 11,
+            "C": 12,
+            "D": 9
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 10 because calculate 5 + 5. gives 10."
+        },
+        "3": {
+          "question": "Calculate 12 + 3.",
+          "options": {
+            "A": 17,
+            "B": 16,
+            "C": 15,
+            "D": 14
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 15 because calculate 12 + 3. gives 15."
+        },
+        "4": {
+          "question": "Calculate 12 + 1.",
+          "options": {
+            "A": 15,
+            "B": 14,
+            "C": 13,
+            "D": 12
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 13 because calculate 12 + 1. gives 13."
+        },
+        "5": {
+          "question": "Calculate 11 + 3.",
+          "options": {
+            "A": 15,
+            "B": 13,
+            "C": 14,
+            "D": 16
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 14 because calculate 11 + 3. gives 14."
+        }
+      }
+    },
+    {
+      "domain": "Number Theory",
+      "unit": "Advanced Number Concepts",
+      "concept": "Modular Arithmetic",
+      "problem": {
+        "1": {
+          "question": "Calculate 9 + 2.",
+          "options": {
+            "A": 10,
+            "B": 12,
+            "C": 11,
+            "D": 13
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 11 because calculate 9 + 2. gives 11."
+        },
+        "2": {
+          "question": "Calculate 17 + 5.",
+          "options": {
+            "A": 22,
+            "B": 25,
+            "C": 23,
+            "D": 20
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 22 because calculate 17 + 5. gives 22."
+        },
+        "3": {
+          "question": "Calculate 18 + 5.",
+          "options": {
+            "A": 27,
+            "B": 24,
+            "C": 22,
+            "D": 23
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 23 because calculate 18 + 5. gives 23."
+        },
+        "4": {
+          "question": "Calculate 11 + 4.",
+          "options": {
+            "A": 17,
+            "B": 15,
+            "C": 14,
+            "D": 16
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 15 because calculate 11 + 4. gives 15."
+        },
+        "5": {
+          "question": "Calculate 5 + 5.",
+          "options": {
+            "A": 12,
+            "B": 11,
+            "C": 9,
+            "D": 10
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 10 because calculate 5 + 5. gives 10."
+        }
+      }
+    },
+    {
+      "domain": "Number Theory",
+      "unit": "Advanced Number Concepts",
+      "concept": "Fermat's Little Theorem",
+      "problem": {
+        "1": {
+          "question": "Calculate 11 + 2.",
+          "options": {
+            "A": 15,
+            "B": 14,
+            "C": 12,
+            "D": 13
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 13 because calculate 11 + 2. gives 13."
+        },
+        "2": {
+          "question": "Calculate 15 + 2.",
+          "options": {
+            "A": 17,
+            "B": 19,
+            "C": 16,
+            "D": 18
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 17 because calculate 15 + 2. gives 17."
+        },
+        "3": {
+          "question": "Calculate 13 + 1.",
+          "options": {
+            "A": 14,
+            "B": 16,
+            "C": 13,
+            "D": 15
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 14 because calculate 13 + 1. gives 14."
+        },
+        "4": {
+          "question": "Calculate 18 + 2.",
+          "options": {
+            "A": 21,
+            "B": 19,
+            "C": 20,
+            "D": 23
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 20 because calculate 18 + 2. gives 20."
+        },
+        "5": {
+          "question": "Calculate 10 + 2.",
+          "options": {
+            "A": 12,
+            "B": 13,
+            "C": 11,
+            "D": 14
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 12 because calculate 10 + 2. gives 12."
+        }
+      }
+    },
+    {
+      "domain": "Graphical Analysis",
+      "unit": "Coordinate Plane",
+      "concept": "Plotting Points",
+      "problem": {
+        "1": {
+          "question": "Calculate 8 + 2.",
+          "options": {
+            "A": 11,
+            "B": 9,
+            "C": 10,
+            "D": 12
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 10 because calculate 8 + 2. gives 10."
+        },
+        "2": {
+          "question": "Calculate 16 + 5.",
+          "options": {
+            "A": 23,
+            "B": 21,
+            "C": 19,
+            "D": 25
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 21 because calculate 16 + 5. gives 21."
+        },
+        "3": {
+          "question": "Calculate 11 + 5.",
+          "options": {
+            "A": 15,
+            "B": 17,
+            "C": 18,
+            "D": 16
+          },
+          "answer": "D",
+          "explanation": "The correct answer is 16 because calculate 11 + 5. gives 16."
+        },
+        "4": {
+          "question": "Calculate 14 + 2.",
+          "options": {
+            "A": 17,
+            "B": 16,
+            "C": 18,
+            "D": 15
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 16 because calculate 14 + 2. gives 16."
+        },
+        "5": {
+          "question": "Calculate 9 + 3.",
+          "options": {
+            "A": 11,
+            "B": 14,
+            "C": 12,
+            "D": 13
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 12 because calculate 9 + 3. gives 12."
+        }
+      }
+    },
+    {
+      "domain": "Graphical Analysis",
+      "unit": "Coordinate Plane",
+      "concept": "Reading Coordinates",
+      "problem": {
+        "1": {
+          "question": "Calculate 16 + 2.",
+          "options": {
+            "A": 18,
+            "B": 17,
+            "C": 20,
+            "D": 19
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 18 because calculate 16 + 2. gives 18."
+        },
+        "2": {
+          "question": "Calculate 18 + 4.",
+          "options": {
+            "A": 25,
+            "B": 24,
+            "C": 22,
+            "D": 21
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 22 because calculate 18 + 4. gives 22."
+        },
+        "3": {
+          "question": "Calculate 9 + 4.",
+          "options": {
+            "A": 14,
+            "B": 13,
+            "C": 12,
+            "D": 15
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 13 because calculate 9 + 4. gives 13."
+        },
+        "4": {
+          "question": "Calculate 10 + 2.",
+          "options": {
+            "A": 13,
+            "B": 12,
+            "C": 14,
+            "D": 11
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 12 because calculate 10 + 2. gives 12."
+        },
+        "5": {
+          "question": "Calculate 10 + 1.",
+          "options": {
+            "A": 10,
+            "B": 11,
+            "C": 13,
+            "D": 12
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 11 because calculate 10 + 1. gives 11."
+        }
+      }
+    },
+    {
+      "domain": "Graphical Analysis",
+      "unit": "Coordinate Plane",
+      "concept": "Linear Graphs",
+      "problem": {
+        "1": {
+          "question": "Calculate 20 + 2.",
+          "options": {
+            "A": 25,
+            "B": 22,
+            "C": 20,
+            "D": 23
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 22 because calculate 20 + 2. gives 22."
+        },
+        "2": {
+          "question": "Calculate 18 + 3.",
+          "options": {
+            "A": 25,
+            "B": 21,
+            "C": 19,
+            "D": 22
+          },
+          "answer": "B",
+          "explanation": "The correct answer is 21 because calculate 18 + 3. gives 21."
+        },
+        "3": {
+          "question": "Calculate 18 + 4.",
+          "options": {
+            "A": 22,
+            "B": 21,
+            "C": 26,
+            "D": 23
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 22 because calculate 18 + 4. gives 22."
+        },
+        "4": {
+          "question": "Calculate 13 + 2.",
+          "options": {
+            "A": 17,
+            "B": 16,
+            "C": 15,
+            "D": 14
+          },
+          "answer": "C",
+          "explanation": "The correct answer is 15 because calculate 13 + 2. gives 15."
+        },
+        "5": {
+          "question": "Calculate 20 + 2.",
+          "options": {
+            "A": 22,
+            "B": 21,
+            "C": 25,
+            "D": 23
+          },
+          "answer": "A",
+          "explanation": "The correct answer is 22 because calculate 20 + 2. gives 22."
+        }
+      }
+    }
+  ]
