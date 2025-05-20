@@ -157,42 +157,6 @@ def display_problem_area(problem: dict, key_prefix: str, is_current: bool = Fals
                                 problem["next_problems"]["related"], "related"
                             )
 
-                    # 새로운 문제 생성 버튼 (구분선 아래에 배치)
-                    st.divider()
-                    col1, col2, col3 = st.columns([1, 2, 1])
-                    with col2:
-                        if st.button(
-                            "📝 새로운 문제 생성",
-                            key=f"{key_prefix}_new",
-                            help="현재 설정된 개념의 새로운 문제를 생성합니다",
-                            use_container_width=True,
-                        ):
-                            logger.info("새로운 문제 생성 시작")
-                            try:
-                                generator = OpenAIProblemGenerator()
-                                if st.session_state.current_problem:
-                                    # 중복 체크 후 히스토리에 추가
-                                    if not any(
-                                        p.get("id")
-                                        == st.session_state.current_problem.get("id")
-                                        for p in st.session_state.problem_history
-                                    ):
-                                        st.session_state.problem_history.append(
-                                            st.session_state.current_problem
-                                        )
-                                problem = generator.generate_problem(
-                                    problem["concept"], problem["difficulty"]
-                                )
-                                st.session_state.current_problem = problem
-                                st.session_state.current_tab = "openai"
-                                st.rerun()
-                            except Exception as e:
-                                error_msg = (
-                                    f"문제 생성 중 오류가 발생했습니다: {str(e)}"
-                                )
-                                logger.error(error_msg)
-                                st.error(error_msg)
-
         st.markdown("</div>", unsafe_allow_html=True)
 
 
@@ -215,6 +179,29 @@ def generate_next_problem(next_problem_info: dict, problem_type: str):
         st.error(f"문제 생성 중 오류가 발생했습니다: {str(e)}")
 
 
+def load_knowledge_map():
+    """지식 맵 데이터를 로드합니다."""
+    with open("data/knowledge_map.json", "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def get_units_for_domain(knowledge_map, domain_id):
+    """선택된 도메인의 단원 목록을 반환합니다."""
+    for domain in knowledge_map["domains"]:
+        if domain["id"] == domain_id:
+            return domain["units"]
+    return []
+
+
+def get_concepts_for_unit(knowledge_map, domain_id, unit_id):
+    """선택된 단원의 개념 목록을 반환합니다."""
+    units = get_units_for_domain(knowledge_map, domain_id)
+    for unit in units:
+        if unit["id"] == unit_id:
+            return unit["concepts"]
+    return []
+
+
 def main():
     # 메인 컨텐츠
     st.title("🎓 AI 수학 튜터")
@@ -231,19 +218,38 @@ def main():
 
         st.header("학습 경로 설정")
 
+        # 지식 맵 로드
+        knowledge_map = load_knowledge_map()
+
         # 도메인 선택
-        domain = st.selectbox(
-            "도메인", ["수와 연산", "도형", "측정", "규칙성", "자료와 가능성"], index=0
+        domain_options = [(d["id"], d["name"]) for d in knowledge_map["domains"]]
+        selected_domain_id = st.selectbox(
+            "도메인",
+            options=[d[0] for d in domain_options],
+            format_func=lambda x: next(d[1] for d in domain_options if d[0] == x),
+            key="domain_selector",
         )
 
-        # 단원 선택
-        unit = st.selectbox(
-            "단원", ["분수와 소수", "약수와 배수", "도형의 넓이", "입체도형"], index=0
+        # 선택된 도메인의 단원 목록
+        units = get_units_for_domain(knowledge_map, selected_domain_id)
+        unit_options = [(u["id"], u["name"]) for u in units]
+        selected_unit_id = st.selectbox(
+            "단원",
+            options=[u[0] for u in unit_options],
+            format_func=lambda x: next(u[1] for u in unit_options if u[0] == x),
+            key="unit_selector",
         )
 
-        # 개념 선택
-        concept = st.selectbox(
-            "개념", ["최대공약수", "최소공배수", "약수 구하기", "소수 판별"], index=0
+        # 선택된 단원의 개념 목록
+        concepts = get_concepts_for_unit(
+            knowledge_map, selected_domain_id, selected_unit_id
+        )
+        concept_options = [(c["id"], c["name"]) for c in concepts]
+        selected_concept_id = st.selectbox(
+            "개념",
+            options=[c[0] for c in concept_options],
+            format_func=lambda x: next(c[1] for c in concept_options if c[0] == x),
+            key="concept_selector",
         )
 
         # 문제 수 선택
@@ -253,12 +259,12 @@ def main():
 
         st.divider()
         st.markdown("📍 **현재 학습 경로:**")
-        st.write(f"도메인: {domain}")
-        st.write(f"단원: {unit}")
-        st.write(f"개념: {concept}")
+        st.write(f"도메인: {selected_domain_id}")
+        st.write(f"단원: {selected_unit_id}")
+        st.write(f"개념: {selected_concept_id}")
         st.write(f"문제 수: {st.session_state.problem_count}개")
         logger.info(
-            f"학습 경로 설정 - 도메인: {domain}, 단원: {unit}, 개념: {concept}, 문제 수: {st.session_state.problem_count}"
+            f"학습 경로 설정 - 도메인: {selected_domain_id}, 단원: {selected_unit_id}, 개념: {selected_concept_id}, 문제 수: {st.session_state.problem_count}"
         )
 
     # 메인 영역 탭
@@ -297,7 +303,7 @@ def main():
                                 )
                                 logger.info("이전 문제를 히스토리에 추가")
                         # 새 문제 생성
-                        problem = generator.generate_problem(concept, "중")
+                        problem = generator.generate_problem(selected_concept_id, "중")
                         st.session_state.current_problem = problem
                         st.session_state.current_tab = "openai"
                         logger.info("새 문제 생성 완료")
@@ -343,7 +349,7 @@ def main():
                 with st.spinner("유사 문제를 검색하여 새로운 문제를 생성중입니다..."):
                     try:
                         generator = ProblemGenerator()
-                        problem = generator.generate_problem(concept, "중")
+                        problem = generator.generate_problem(selected_concept_id, "중")
                         st.session_state.current_problem = problem
                         st.session_state.current_tab = "rag"
                         logger.info("새 문제 생성 완료")

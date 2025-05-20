@@ -1,133 +1,1442 @@
 {
     "domains": [
-        {
-            "name": "수와 연산",
-            "units": [
-                {
-                    "name": "약수와 배수",
-                    "concepts": [
-                        {
-                            "name": "최대공약수",
-                            "prerequisites": ["약수 구하기"],
-                            "related_concepts": ["최소공배수", "약수"],
-                            "difficulty_progression": {
-                                "하": {
-                                    "number_range": "1~50",
-                                    "problem_types": [
-                                        "두 수의 최대공약수 찾기",
-                                        "약수 나열 후 공통 약수 중 최댓값 찾기"
-                                    ]
-                                },
-                                "중": {
-                                    "number_range": "1~100",
-                                    "problem_types": [
-                                        "여러 물건을 동일하게 나누기",
-                                        "실생활 응용 문제",
-                                        "세 수의 최대공약수 찾기"
-                                    ]
-                                },
-                                "상": {
-                                    "number_range": "1~1000",
-                                    "problem_types": [
-                                        "복합 문제 해결",
-                                        "최대공약수의 성질 활용",
-                                        "최대공약수와 최소공배수의 관계"
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "name": "최소공배수",
-                            "prerequisites": ["배수 구하기"],
-                            "related_concepts": ["최대공약수", "배수"],
-                            "difficulty_progression": {
-                                "하": {
-                                    "number_range": "1~50",
-                                    "problem_types": [
-                                        "두 수의 최소공배수 찾기",
-                                        "배수 나열 후 공통 배수 중 최솟값 찾기"
-                                    ]
-                                },
-                                "중": {
-                                    "number_range": "1~100",
-                                    "problem_types": [
-                                        "주기가 다른 상황의 일치 시점 찾기",
-                                        "실생활 응용 문제"
-                                    ]
-                                },
-                                "상": {
-                                    "number_range": "1~1000",
-                                    "problem_types": [
-                                        "복합 문제 해결",
-                                        "최소공배수의 성질 활용",
-                                        "세 수 이상의 최소공배수"
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "name": "약수 구하기",
-                            "prerequisites": [],
-                            "related_concepts": ["최대공약수", "소수"],
-                            "difficulty_progression": {
-                                "하": {
-                                    "number_range": "1~50",
-                                    "problem_types": [
-                                        "한 수의 모든 약수 찾기",
-                                        "약수의 개수 구하기"
-                                    ]
-                                },
-                                "중": {
-                                    "number_range": "1~100",
-                                    "problem_types": [
-                                        "약수의 합 구하기",
-                                        "약수의 성질 이해하기",
-                                        "실생활 응용 문제"
-                                    ]
-                                },
-                                "상": {
-                                    "number_range": "1~1000",
-                                    "problem_types": [
-                                        "약수의 규칙성 찾기",
-                                        "약수와 배수의 관계",
-                                        "복합 문제 해결"
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "name": "소수 판별",
-                            "prerequisites": ["약수 구하기"],
-                            "related_concepts": ["약수", "소인수분해"],
-                            "difficulty_progression": {
-                                "하": {
-                                    "number_range": "1~50",
-                                    "problem_types": [
-                                        "소수 찾기",
-                                        "소수와 합성수 구분하기"
-                                    ]
-                                },
-                                "중": {
-                                    "number_range": "1~100",
-                                    "problem_types": [
-                                        "소수의 성질 이해하기",
-                                        "소인수분해하기",
-                                        "실생활 응용 문제"
-                                    ]
-                                },
-                                "상": {
-                                    "number_range": "1~1000",
-                                    "problem_types": [
-                                        "에라토스테네스의 체 활용",
-                                        "소수의 규칙성 찾기",
-                                        "복합 문제 해결"
-                                    ]
-                                }
-                            }
-                        }
-                    ]
-                }
+      {
+        "id": "D1",
+        "name": "수와 연산",
+        "units": [
+          {
+            "id": "U1",
+            "name": "자연수의 이해",
+            "concepts": [
+              {
+                "id": "C1",
+                "name": "10000까지의 수",
+                "prerequisites": [],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "네 자리 수까지의 읽기와 쓰기, 자릿값 이해"
+              },
+              {
+                "id": "C2",
+                "name": "수의 크기 비교",
+                "prerequisites": ["C1"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "부등호를 사용한 수의 크기 비교, 수직선 상의 위치"
+              },
+              {
+                "id": "C3",
+                "name": "자연수의 덧셈",
+                "prerequisites": ["C1"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "네 자리 수의 덧셈, 받아올림이 있는 계산"
+              },
+              {
+                "id": "C4",
+                "name": "자연수의 뺄셈",
+                "prerequisites": ["C1"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "네 자리 수의 뺄셈, 받아내림이 있는 계산"
+              },
+              {
+                "id": "C5",
+                "name": "자연수의 곱셈",
+                "prerequisites": ["C1"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "두 자리 수의 곱셈, 세 자리 수의 곱셈"
+              },
+              {
+                "id": "C6",
+                "name": "자연수의 나눗셈",
+                "prerequisites": ["C5"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "나눗셈의 기본 개념, 몫과 나머지"
+              }
             ]
+          },
+          {
+            "id": "U2",
+            "name": "분수와 소수",
+            "concepts": [
+              {
+                "id": "C7",
+                "name": "분수의 이해",
+                "prerequisites": [],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "분모와 분자의 의미, 단위분수, 진분수와 가분수"
+              },
+              {
+                "id": "C8",
+                "name": "분수의 덧셈",
+                "prerequisites": ["C7"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "동분모 분수의 덧셈, 분수의 크기 비교"
+              },
+              {
+                "id": "C9",
+                "name": "분수의 뺄셈",
+                "prerequisites": ["C7"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "동분모 분수의 뺄셈, 분수의 크기 비교"
+              },
+              {
+                "id": "C10",
+                "name": "분수의 곱셈",
+                "prerequisites": ["C7"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "분수의 곱셈, 분수와 자연수의 곱셈"
+              },
+              {
+                "id": "C11",
+                "name": "분수의 나눗셈",
+                "prerequisites": ["C10"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "분수의 나눗셈, 분수와 자연수의 나눗셈"
+              },
+              {
+                "id": "C12",
+                "name": "소수의 이해",
+                "prerequisites": ["C7"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "소수점의 의미, 소수 첫째자리까지의 수"
+              },
+              {
+                "id": "C13",
+                "name": "소수의 덧셈과 뺄셈",
+                "prerequisites": ["C12"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "소수의 덧셈과 뺄셈, 소수의 크기 비교"
+              },
+              {
+                "id": "C14",
+                "name": "소수의 곱셈과 나눗셈",
+                "prerequisites": ["C12"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "소수의 곱셈과 나눗셈, 소수와 자연수의 곱셈과 나눗셈"
+              }
+            ]
+          },
+          {
+            "id": "U3",
+            "name": "약수와 배수",
+            "concepts": [
+              {
+                "id": "C15",
+                "name": "약수 찾기",
+                "prerequisites": [],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "자연수의 약수 찾기, 약수의 의미 이해"
+              },
+              {
+                "id": "C16",
+                "name": "배수 찾기",
+                "prerequisites": [],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "자연수의 배수 찾기, 배수의 의미 이해"
+              },
+              {
+                "id": "C17",
+                "name": "최대공약수",
+                "prerequisites": ["C15"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "두 수의 최대공약수 구하기, 약수와 최대공약수의 관계"
+              },
+              {
+                "id": "C18",
+                "name": "최소공배수",
+                "prerequisites": ["C16"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "두 수의 최소공배수 구하기, 배수와 최소공배수의 관계"
+              },
+              {
+                "id": "C19",
+                "name": "소수와 합성수",
+                "prerequisites": ["C15"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "소수와 합성수의 개념, 소수 판별하기"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "name": "도형",
+        "units": [
+          {
+            "id": "U4",
+            "name": "평면도형의 이해",
+            "concepts": [
+              {
+                "id": "C20",
+                "name": "점과 선분",
+                "prerequisites": [],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "점, 선분, 반직선, 직선의 개념"
+              },
+              {
+                "id": "C21",
+                "name": "각의 이해",
+                "prerequisites": ["C20"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "각의 개념, 각의 종류, 각도 측정"
+              },
+              {
+                "id": "C22",
+                "name": "평행과 수직",
+                "prerequisites": ["C20"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "평행선과 수직선의 개념, 작도하기"
+              }
+            ]
+          },
+          {
+            "id": "U5",
+            "name": "삼각형",
+            "concepts": [
+              {
+                "id": "C23",
+                "name": "삼각형의 구성요소",
+                "prerequisites": ["C20"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "변, 꼭짓점, 각의 이해"
+              },
+              {
+                "id": "C24",
+                "name": "삼각형의 분류",
+                "prerequisites": ["C23"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "정삼각형, 이등변삼각형, 직각삼각형"
+              },
+              {
+                "id": "C25",
+                "name": "삼각형의 내각",
+                "prerequisites": ["C24"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "삼각형 내각의 합, 외각의 이해"
+              },
+              {
+                "id": "C26",
+                "name": "삼각형의 합동",
+                "prerequisites": ["C24"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "합동의 개념, 합동조건"
+              }
+            ]
+          },
+          {
+            "id": "U6",
+            "name": "사각형",
+            "concepts": [
+              {
+                "id": "C27",
+                "name": "사각형의 구성요소",
+                "prerequisites": ["C20"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "변, 꼭짓점, 각, 대각선의 이해"
+              },
+              {
+                "id": "C28",
+                "name": "사각형의 분류",
+                "prerequisites": ["C27"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "정사각형, 직사각형, 평행사변형, 마름모, 사다리꼴"
+              },
+              {
+                "id": "C29",
+                "name": "사각형의 성질",
+                "prerequisites": ["C28"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "대각선의 성질, 대변과 대각의 성질"
+              }
+            ]
+          },
+          {
+            "id": "U7",
+            "name": "원",
+            "concepts": [
+              {
+                "id": "C30",
+                "name": "원의 구성요소",
+                "prerequisites": [],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "중심, 반지름, 지름, 호, 현의 이해"
+              },
+              {
+                "id": "C31",
+                "name": "원의 성질",
+                "prerequisites": ["C30"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "원의 대칭성, 원주율의 이해"
+              },
+              {
+                "id": "C32",
+                "name": "원과 부채꼴",
+                "prerequisites": ["C30"],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "부채꼴의 개념, 중심각과 호의 관계"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "name": "측정",
+        "units": [
+          {
+            "id": "U6",
+            "name": "길이와 시간",
+            "concepts": [
+              {
+                "id": "C15",
+                "name": "길이의 단위",
+                "prerequisites": [],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "mm, cm, m, km의 이해와 변환"
+              },
+              {
+                "id": "C16",
+                "name": "시간의 덧셈과 뺄셈",
+                "prerequisites": [],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "시간의 덧셈과 뺄셈, 시간 계산하기"
+              }
+            ]
+          },
+          {
+            "id": "U7",
+            "name": "무게와 들이",
+            "concepts": [
+              {
+                "id": "C17",
+                "name": "무게의 단위",
+                "prerequisites": [],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "g, kg, t의 이해와 변환"
+              },
+              {
+                "id": "C18",
+                "name": "들이의 단위",
+                "prerequisites": [],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "mL, L의 이해와 변환"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "name": "규칙성",
+        "units": [
+          {
+            "id": "U8",
+            "name": "규칙 찾기",
+            "concepts": [
+              {
+                "id": "C19",
+                "name": "수 배열의 규칙",
+                "prerequisites": [],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "수의 배열에서 규칙 찾고 적용하기"
+              },
+              {
+                "id": "C20",
+                "name": "도형의 규칙",
+                "prerequisites": [],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "도형의 배열에서 규칙 찾고 적용하기"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "name": "자료와 가능성",
+        "units": [
+          {
+            "id": "U9",
+            "name": "자료의 정리",
+            "concepts": [
+              {
+                "id": "C21",
+                "name": "막대그래프",
+                "prerequisites": [],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "막대그래프 그리기와 해석하기"
+              },
+              {
+                "id": "C22",
+                "name": "꺾은선그래프",
+                "prerequisites": [],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "꺾은선그래프 그리기와 해석하기"
+              }
+            ]
+          },
+          {
+            "id": "U10",
+            "name": "가능성",
+            "concepts": [
+              {
+                "id": "C23",
+                "name": "확률의 기초",
+                "prerequisites": [],
+                "difficulty_levels": ["상", "중", "하"],
+                "description": "가능성을 수로 나타내기, 확률의 기본 개념"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "id": 1,
+        "domain_id": 1,
+        "unit_id": 101,
+        "name": "Addition and Subtraction",
+        "prerequisites": [],
+        "related_concepts": [2, 3],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 20],
+            "problem_types": ["Single-digit addition", "Simple word problems"]
+          },
+          "medium": {
+            "number_range": [1, 100],
+            "problem_types": ["Double-digit addition", "Addition with carrying", "Basic subtraction"]
+          },
+          "hard": {
+            "number_range": [1, 1000],
+            "problem_types": ["Multi-digit addition", "Addition with decimals", "Complex word problems"]
+          }
         }
+      },
+      {
+        "id": 2,
+        "domain_id": 1,
+        "unit_id": 101,
+        "name": "Multiplication and Division",
+        "prerequisites": [1],
+        "related_concepts": [21, 3],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 10],
+            "problem_types": ["Single-digit multiplication", "Simple division (no remainder)"]
+          },
+          "medium": {
+            "number_range": [1, 100],
+            "problem_types": ["Multiplication with carrying", "Division with remainder", "Missing factors"]
+          },
+          "hard": {
+            "number_range": [1, 1000],
+            "problem_types": ["Multi-digit multiplication", "Long division", "Factorization problems"]
+          }
+        }
+      },
+      {
+        "id": 3,
+        "domain_id": 1,
+        "unit_id": 101,
+        "name": "Number Sense and Place Value",
+        "prerequisites": [],
+        "related_concepts": [1, 2],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 100],
+            "problem_types": ["Place value in numbers", "Read and write numbers correctly"]
+          },
+          "medium": {
+            "number_range": [1, 1000],
+            "problem_types": ["Rounding to nearest ten", "Estimating sums using place value"]
+          },
+          "hard": {
+            "number_range": [1, 10000],
+            "problem_types": ["Compare multi-digit numbers", "Advanced rounding techniques"]
+          }
+        }
+      },
+      {
+        "id": 4,
+        "domain_id": 2,
+        "unit_id": 201,
+        "name": "Fraction Basics",
+        "prerequisites": [1],
+        "related_concepts": [5, 3],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 10],
+            "problem_types": ["Identify parts of a whole", "Simple fraction representation"]
+          },
+          "medium": {
+            "number_range": [1, 20],
+            "problem_types": ["Equivalent fractions", "Comparing fractions", "Simple fraction addition"]
+          },
+          "hard": {
+            "number_range": [1, 100],
+            "problem_types": ["Mixed numbers", "Complex fraction addition/subtraction", "Fraction word problems"]
+          }
+        }
+      },
+      {
+        "id": 5,
+        "domain_id": 2,
+        "unit_id": 201,
+        "name": "Fraction Arithmetic",
+        "prerequisites": [4, 2],
+        "related_concepts": [4, 2],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 10],
+            "problem_types": ["Add fractions with like denominators", "Subtract fractions"]
+          },
+          "medium": {
+            "number_range": [1, 20],
+            "problem_types": ["Add fractions with unlike denominators", "Multiply fraction by whole number"]
+          },
+          "hard": {
+            "number_range": [1, 100],
+            "problem_types": ["Multiply two fractions", "Divide fractions", "Complex fraction operations"]
+          }
+        }
+      },
+      {
+        "id": 6,
+        "domain_id": 3,
+        "unit_id": 301,
+        "name": "Decimal Place Value",
+        "prerequisites": [3],
+        "related_concepts": [7, 3],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [0, 1],
+            "problem_types": ["Identify tenths and hundredths", "Convert simple fraction to decimal"]
+          },
+          "medium": {
+            "number_range": [0, 10],
+            "problem_types": ["Compare decimals", "Rounding decimals"]
+          },
+          "hard": {
+            "number_range": [0, 100],
+            "problem_types": ["Convert complex fractions to decimal", "Decimal to percent conversions"]
+          }
+        }
+      },
+      {
+        "id": 7,
+        "domain_id": 3,
+        "unit_id": 301,
+        "name": "Decimal Operations",
+        "prerequisites": [6, 1],
+        "related_concepts": [4, 2],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [0, 10],
+            "problem_types": ["Add decimals up to tenths", "Subtract decimals"]
+          },
+          "medium": {
+            "number_range": [0, 100],
+            "problem_types": ["Add decimals with carry", "Multiply decimal by whole number", "Divide decimal by whole number"]
+          },
+          "hard": {
+            "number_range": [0, 1000],
+            "problem_types": ["Multiply two decimals", "Long division with decimals", "Complex decimal word problems"]
+          }
+        }
+      },
+      {
+        "id": 8,
+        "domain_id": 4,
+        "unit_id": 401,
+        "name": "Linear Equations",
+        "prerequisites": [1],
+        "related_concepts": [9, 29],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 10],
+            "problem_types": ["Solve simple one-step equations", "Isolate variable basics"]
+          },
+          "medium": {
+            "number_range": [1, 100],
+            "problem_types": ["Two-step equations", "Equations with parentheses"]
+          },
+          "hard": {
+            "number_range": [1, 1000],
+            "problem_types": ["Multi-step equations", "Equations with variables on both sides", "Word problems involving equations"]
+          }
+        }
+      },
+      {
+        "id": 9,
+        "domain_id": 4,
+        "unit_id": 401,
+        "name": "Inequalities",
+        "prerequisites": [8],
+        "related_concepts": [8, 29],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 10],
+            "problem_types": ["Graph simple inequalities on a number line", "Solve one-step inequalities"]
+          },
+          "medium": {
+            "number_range": [1, 100],
+            "problem_types": ["Solve two-step inequalities", "Compound inequalities"]
+          },
+          "hard": {
+            "number_range": [1, 1000],
+            "problem_types": ["Absolute value inequalities", "Word problems with inequalities", "Inequalities with variables on both sides"]
+          }
+        }
+      },
+      {
+        "id": 10,
+        "domain_id": 5,
+        "unit_id": 501,
+        "name": "Triangle Properties",
+        "prerequisites": [],
+        "related_concepts": [11, 12],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [0, 180],
+            "problem_types": ["Identify types of triangles", "Compute triangle perimeter"]
+          },
+          "medium": {
+            "number_range": [0, 360],
+            "problem_types": ["Find missing angles", "Calculate triangle area"]
+          },
+          "hard": {
+            "number_range": [0, 1000],
+            "problem_types": ["Solve triangles using Pythagorean theorem", "Word problems involving triangles"]
+          }
+        }
+      },
+      {
+        "id": 11,
+        "domain_id": 5,
+        "unit_id": 501,
+        "name": "Circle Properties",
+        "prerequisites": [],
+        "related_concepts": [10, 12],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 10],
+            "problem_types": ["Identify parts of a circle", "Compute circumference with whole radius"]
+          },
+          "medium": {
+            "number_range": [1, 100],
+            "problem_types": ["Calculate circumference and area", "Find arc lengths"]
+          },
+          "hard": {
+            "number_range": [1, 1000],
+            "problem_types": ["Solve problems involving sectors", "Apply circle theorems in proofs"]
+          }
+        }
+      },
+      {
+        "id": 12,
+        "domain_id": 5,
+        "unit_id": 501,
+        "name": "Polygon Basics",
+        "prerequisites": [],
+        "related_concepts": [10, 11],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [3, 10],
+            "problem_types": ["Identify types of polygons", "Count sides of polygons"]
+          },
+          "medium": {
+            "number_range": [3, 20],
+            "problem_types": ["Calculate interior angle sum", "Classify quadrilaterals"]
+          },
+          "hard": {
+            "number_range": [3, 50],
+            "problem_types": ["Regular polygon angle calculations", "Complex polygon problems"]
+          }
+        }
+      },
+      {
+        "id": 13,
+        "domain_id": 6,
+        "unit_id": 601,
+        "name": "Sine, Cosine, Tangent",
+        "prerequisites": [10],
+        "related_concepts": [10, 11],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [0, 90],
+            "problem_types": ["Identify trig ratios for given angles", "Calculate missing side with basic trig"]
+          },
+          "medium": {
+            "number_range": [0, 360],
+            "problem_types": ["Solve for angles using trig", "Real-world trigonometric problems"]
+          },
+          "hard": {
+            "number_range": [0, 360],
+            "problem_types": ["Angles of elevation and depression", "Trigonometric identities", "Graphing trig functions"]
+          }
+        }
+      },
+      {
+        "id": 14,
+        "domain_id": 6,
+        "unit_id": 601,
+        "name": "Inverse Trigonometric Functions",
+        "prerequisites": [13],
+        "related_concepts": [13, 10],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [0, 1],
+            "problem_types": ["Find angle from sine/cosine values", "Basic inverse function usage"]
+          },
+          "medium": {
+            "number_range": [0, 1],
+            "problem_types": ["Solve triangle using inverse trig", "Apply inverse functions in contexts"]
+          },
+          "hard": {
+            "number_range": [0, 1],
+            "problem_types": ["Complex angle solving", "Trigonometric equation solving with inverses"]
+          }
+        }
+      },
+      {
+        "id": 15,
+        "domain_id": 7,
+        "unit_id": 701,
+        "name": "Limits and Continuity",
+        "prerequisites": [29],
+        "related_concepts": [16, 29],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [0, 10],
+            "problem_types": ["Evaluate simple limits", "Graphical continuity questions"]
+          },
+          "medium": {
+            "number_range": [0, 10],
+            "problem_types": ["Limits using algebraic manipulation", "Piecewise functions"]
+          },
+          "hard": {
+            "number_range": [0, 100],
+            "problem_types": ["L'Hôpital's rule", "Limits at infinity"]
+          }
+        }
+      },
+      {
+        "id": 16,
+        "domain_id": 7,
+        "unit_id": 701,
+        "name": "Derivatives",
+        "prerequisites": [15],
+        "related_concepts": [15, 29],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [0, 5],
+            "problem_types": ["Find derivative of simple polynomial", "Use power rule"]
+          },
+          "medium": {
+            "number_range": [0, 10],
+            "problem_types": ["Product rule", "Chain rule", "Quotient rule"]
+          },
+          "hard": {
+            "number_range": [0, 20],
+            "problem_types": ["Implicit differentiation", "Higher-order derivatives", "Optimization problems"]
+          }
+        }
+      },
+      {
+        "id": 17,
+        "domain_id": 8,
+        "unit_id": 801,
+        "name": "Mean, Median, Mode",
+        "prerequisites": [],
+        "related_concepts": [18, 20],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [0, 100],
+            "problem_types": ["Compute mean of small set", "Identify median/mode"]
+          },
+          "medium": {
+            "number_range": [0, 100],
+            "problem_types": ["Mean/median of larger data", "Effect of adding values on mean"]
+          },
+          "hard": {
+            "number_range": [0, 1000],
+            "problem_types": ["Weighted mean calculations", "Mode in grouped data"]
+          }
+        }
+      },
+      {
+        "id": 18,
+        "domain_id": 8,
+        "unit_id": 801,
+        "name": "Probability Distributions",
+        "prerequisites": [17],
+        "related_concepts": [17, 20],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [0, 1],
+            "problem_types": ["Identify distribution types", "Compute probabilities in simple distributions"]
+          },
+          "medium": {
+            "number_range": [0, 100],
+            "problem_types": ["Binomial distribution problems", "Expected value calculations"]
+          },
+          "hard": {
+            "number_range": [0, 1000],
+            "problem_types": ["Continuous distribution integrals", "Normal distribution calculations"]
+          }
+        }
+      },
+      {
+        "id": 19,
+        "domain_id": 9,
+        "unit_id": 901,
+        "name": "Simple Events",
+        "prerequisites": [],
+        "related_concepts": [20, 18],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [0, 1],
+            "problem_types": ["Calculate probability of single event", "Fraction of outcomes"]
+          },
+          "medium": {
+            "number_range": [0, 100],
+            "problem_types": ["Probability with multiple outcomes", "Additive rule for probabilities"]
+          },
+          "hard": {
+            "number_range": [0, 100],
+            "problem_types": ["Conditional probability", "Multiplicative rule of probability"]
+          }
+        }
+      },
+      {
+        "id": 20,
+        "domain_id": 9,
+        "unit_id": 901,
+        "name": "Compound Probability",
+        "prerequisites": [19],
+        "related_concepts": [19, 18],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [0, 1],
+            "problem_types": ["Simple dice roll probabilities", "Multiple coin flips"]
+          },
+          "medium": {
+            "number_range": [0, 100],
+            "problem_types": ["Probability of sequential events", "Tree diagrams"]
+          },
+          "hard": {
+            "number_range": [0, 100],
+            "problem_types": ["Complex probability tree", "Bayes' theorem applications"]
+          }
+        }
+      },
+      {
+        "id": 21,
+        "domain_id": 10,
+        "unit_id": 1001,
+        "name": "Prime Factorization",
+        "prerequisites": [],
+        "related_concepts": [22, 3],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 50],
+            "problem_types": ["Find prime factors of small numbers", "Identify prime numbers"]
+          },
+          "medium": {
+            "number_range": [1, 1000],
+            "problem_types": ["Find GCD by prime factors", "LCM using prime factors"]
+          },
+          "hard": {
+            "number_range": [1, 100000],
+            "problem_types": ["Prime factorization of large numbers", "Use in cryptography context"]
+          }
+        }
+      },
+      {
+        "id": 22,
+        "domain_id": 10,
+        "unit_id": 1001,
+        "name": "Greatest Common Divisor (GCD)",
+        "prerequisites": [21],
+        "related_concepts": [21, 3],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 100],
+            "problem_types": ["Compute GCD by list of factors", "GCD of simple pairs"]
+          },
+          "medium": {
+            "number_range": [1, 1000],
+            "problem_types": ["Euclidean algorithm for GCD", "GCD of multiple numbers"]
+          },
+          "hard": {
+            "number_range": [1, 100000],
+            "problem_types": ["GCD in modular arithmetic", "Real-world applications of GCD"]
+          }
+        }
+      },
+      {
+        "id": 23,
+        "domain_id": 11,
+        "unit_id": 1101,
+        "name": "Permutations",
+        "prerequisites": [],
+        "related_concepts": [24, 3],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 10],
+            "problem_types": ["Arrange 3-5 items", "Simple permutation formula"]
+          },
+          "medium": {
+            "number_range": [1, 20],
+            "problem_types": ["Permutations with restrictions", "Circular permutations"]
+          },
+          "hard": {
+            "number_range": [1, 50],
+            "problem_types": ["Permutations with repeated items", "Advanced permutation problems"]
+          }
+        }
+      },
+      {
+        "id": 24,
+        "domain_id": 11,
+        "unit_id": 1101,
+        "name": "Combinations",
+        "prerequisites": [23],
+        "related_concepts": [23, 18],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 10],
+            "problem_types": ["Choose 2 from small set", "Basic combination formula"]
+          },
+          "medium": {
+            "number_range": [1, 20],
+            "problem_types": ["Combination with restrictions", "Selecting committees"]
+          },
+          "hard": {
+            "number_range": [1, 50],
+            "problem_types": ["Combination in probability contexts", "Applications in statistics"]
+          }
+        }
+      },
+      {
+        "id": 25,
+        "domain_id": 12,
+        "unit_id": 1201,
+        "name": "Union and Intersection",
+        "prerequisites": [],
+        "related_concepts": [26, 27],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 20],
+            "problem_types": ["Combine two sets", "Find common elements"]
+          },
+          "medium": {
+            "number_range": [1, 100],
+            "problem_types": ["Operations on multiple sets", "Venn diagrams with two sets"]
+          },
+          "hard": {
+            "number_range": [1, 100],
+            "problem_types": ["Venn diagrams with three sets", "Set proofs"]
+          }
+        }
+      },
+      {
+        "id": 26,
+        "domain_id": 12,
+        "unit_id": 1201,
+        "name": "Set Complements and Difference",
+        "prerequisites": [25],
+        "related_concepts": [25, 19],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 50],
+            "problem_types": ["Find complement of a set", "Subtract one set from another"]
+          },
+          "medium": {
+            "number_range": [1, 100],
+            "problem_types": ["Set difference with multiple sets", "Venn diagrams complement"]
+          },
+          "hard": {
+            "number_range": [1, 100],
+            "problem_types": ["Set identities proofs", "Applications in probability"]
+          }
+        }
+      },
+      {
+        "id": 27,
+        "domain_id": 13,
+        "unit_id": 1301,
+        "name": "Logical Operators",
+        "prerequisites": [],
+        "related_concepts": [28, 25],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [],
+            "problem_types": ["Identify basic logical operators (AND, OR, NOT)", "Truth tables for simple statements"]
+          },
+          "medium": {
+            "number_range": [],
+            "problem_types": ["Evaluate compound logical expressions", "Construct truth tables for multiple operators"]
+          },
+          "hard": {
+            "number_range": [],
+            "problem_types": ["Logical equivalence proofs", "De Morgan's laws applications"]
+          }
+        }
+      },
+      {
+        "id": 28,
+        "domain_id": 13,
+        "unit_id": 1301,
+        "name": "Propositional Logic",
+        "prerequisites": [27],
+        "related_concepts": [27, 25],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [],
+            "problem_types": ["Identify propositions and logical connectives", "Simple logical arguments"]
+          },
+          "medium": {
+            "number_range": [],
+            "problem_types": ["Translate English statements to logic", "Analyze validity of simple arguments"]
+          },
+          "hard": {
+            "number_range": [],
+            "problem_types": ["Construct truth tables for complex propositions", "Prove arguments using logical equivalences"]
+          }
+        }
+      },
+      {
+        "id": 29,
+        "domain_id": 14,
+        "unit_id": 1401,
+        "name": "Function Notation",
+        "prerequisites": [],
+        "related_concepts": [30, 37],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [],
+            "problem_types": ["Evaluate simple function values", "Understand f(x) notation"]
+          },
+          "medium": {
+            "number_range": [],
+            "problem_types": ["Compose functions", "Domain and range identification"]
+          },
+          "hard": {
+            "number_range": [],
+            "problem_types": ["Inverse functions", "Advanced composite functions"]
+          }
+        }
+      },
+      {
+        "id": 30,
+        "domain_id": 14,
+        "unit_id": 1401,
+        "name": "Linear and Non-linear Functions",
+        "prerequisites": [29],
+        "related_concepts": [29, 37],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [0, 10],
+            "problem_types": ["Identify linear vs non-linear", "Plot simple linear functions"]
+          },
+          "medium": {
+            "number_range": [0, 100],
+            "problem_types": ["Graph linear and quadratic functions", "Analyze function behavior"]
+          },
+          "hard": {
+            "number_range": [0, 1000],
+            "problem_types": ["Solve systems of equations", "Optimize functions within constraints"]
+          }
+        }
+      },
+      {
+        "id": 31,
+        "domain_id": 15,
+        "unit_id": 1501,
+        "name": "Vector Operations",
+        "prerequisites": [],
+        "related_concepts": [32, 10],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [],
+            "problem_types": ["Add and subtract vectors graphically", "Scalar multiplication"]
+          },
+          "medium": {
+            "number_range": [],
+            "problem_types": ["Dot product", "Cross product basics"]
+          },
+          "hard": {
+            "number_range": [],
+            "problem_types": ["Vectors in multiple dimensions", "Applications in physics"]
+          }
+        }
+      },
+      {
+        "id": 32,
+        "domain_id": 15,
+        "unit_id": 1501,
+        "name": "Matrix Multiplication",
+        "prerequisites": [31],
+        "related_concepts": [31, 33],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [],
+            "problem_types": ["Multiply 2x2 matrices", "Matrix addition and subtraction"]
+          },
+          "medium": {
+            "number_range": [],
+            "problem_types": ["Matrix inversion for 2x2", "Matrix determinant"]
+          },
+          "hard": {
+            "number_range": [],
+            "problem_types": ["Multiply larger matrices", "Eigenvalues and eigenvectors basics"]
+          }
+        }
+      },
+      {
+        "id": 33,
+        "domain_id": 16,
+        "unit_id": 1601,
+        "name": "Arithmetic Sequences",
+        "prerequisites": [],
+        "related_concepts": [34, 8],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [0, 10],
+            "problem_types": ["Identify sequence pattern", "Find common difference"]
+          },
+          "medium": {
+            "number_range": [0, 100],
+            "problem_types": ["Find nth term of sequence", "Sum of first n terms"]
+          },
+          "hard": {
+            "number_range": [0, 1000],
+            "problem_types": ["Complex sequences", "Recursive definitions"]
+          }
+        }
+      },
+      {
+        "id": 34,
+        "domain_id": 16,
+        "unit_id": 1601,
+        "name": "Geometric Sequences",
+        "prerequisites": [33],
+        "related_concepts": [33, 8],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 5],
+            "problem_types": ["Identify geometric ratio", "Find next term"]
+          },
+          "medium": {
+            "number_range": [1, 20],
+            "problem_types": ["nth term formula", "Sum of geometric series"]
+          },
+          "hard": {
+            "number_range": [1, 1000],
+            "problem_types": ["Infinite series", "Applications in finance"]
+          }
+        }
+      },
+      {
+        "id": 35,
+        "domain_id": 17,
+        "unit_id": 1701,
+        "name": "Metric Conversions",
+        "prerequisites": [],
+        "related_concepts": [36, 3],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 100],
+            "problem_types": ["Convert between mm, cm, m", "Convert liters to ml"]
+          },
+          "medium": {
+            "number_range": [1, 1000],
+            "problem_types": ["Convert km to miles", "Temperature conversions"]
+          },
+          "hard": {
+            "number_range": [1, 100000],
+            "problem_types": ["Complex unit conversions", "Dimensional analysis"]
+          }
+        }
+      },
+      {
+        "id": 36,
+        "domain_id": 17,
+        "unit_id": 1701,
+        "name": "Area and Volume",
+        "prerequisites": [35],
+        "related_concepts": [35, 10],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [1, 10],
+            "problem_types": ["Area of rectangle", "Volume of cube"]
+          },
+          "medium": {
+            "number_range": [1, 100],
+            "problem_types": ["Area of triangle", "Volume of cylinder"]
+          },
+          "hard": {
+            "number_range": [1, 1000],
+            "problem_types": ["Composite figures area", "Volume of spheres and cones"]
+          }
+        }
+      },
+      {
+        "id": 37,
+        "domain_id": 18,
+        "unit_id": 1801,
+        "name": "Graph Terminology",
+        "prerequisites": [],
+        "related_concepts": [38, 8],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [],
+            "problem_types": ["Identify vertices and edges", "Undirected vs directed graphs"]
+          },
+          "medium": {
+            "number_range": [],
+            "problem_types": ["Graph isomorphism basics", "Graph coloring concepts"]
+          },
+          "hard": {
+            "number_range": [],
+            "problem_types": ["Planar graph challenges", "Advanced graph algorithms"]
+          }
+        }
+      },
+      {
+        "id": 38,
+        "domain_id": 18,
+        "unit_id": 1801,
+        "name": "Paths and Cycles",
+        "prerequisites": [37],
+        "related_concepts": [37, 33],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [],
+            "problem_types": ["Find simple path", "Identify a cycle in a graph"]
+          },
+          "medium": {
+            "number_range": [],
+            "problem_types": ["Shortest path in small graph", "Identify Eulerian path"]
+          },
+          "hard": {
+            "number_range": [],
+            "problem_types": ["Graph traversal algorithms", "Complex network analysis"]
+          }
+        }
+      },
+      {
+        "id": 39,
+        "domain_id": 19,
+        "unit_id": 1901,
+        "name": "Separable Differential Equations",
+        "prerequisites": [],
+        "related_concepts": [40, 33],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [],
+            "problem_types": ["Separate variables", "Integrate simple separable DE"]
+          },
+          "medium": {
+            "number_range": [],
+            "problem_types": ["Solve initial value problems", "Population growth model"]
+          },
+          "hard": {
+            "number_range": [],
+            "problem_types": ["Non-linear separable DE", "Real-world modeling"]
+          }
+        }
+      },
+      {
+        "id": 40,
+        "domain_id": 19,
+        "unit_id": 1901,
+        "name": "Linear First-order DEs",
+        "prerequisites": [],
+        "related_concepts": [39, 33],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [],
+            "problem_types": ["Standard linear DE solve", "Find integrating factor"]
+          },
+          "medium": {
+            "number_range": [],
+            "problem_types": ["Solve using integrating factor", "Word problems"]
+          },
+          "hard": {
+            "number_range": [],
+            "problem_types": ["Complex integrating factors", "Modeling applications"]
+          }
+        }
+      },
+      {
+        "id": 41,
+        "domain_id": 20,
+        "unit_id": 2001,
+        "name": "Word Problems",
+        "prerequisites": [],
+        "related_concepts": [42, 8],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [],
+            "problem_types": ["Simple addition word problems", "Identify key information"]
+          },
+          "medium": {
+            "number_range": [],
+            "problem_types": ["Multi-step word problems", "Translate words to equations"]
+          },
+          "hard": {
+            "number_range": [],
+            "problem_types": ["Complex multi-step problems", "Advanced logic puzzles"]
+          }
+        }
+      },
+      {
+        "id": 42,
+        "domain_id": 20,
+        "unit_id": 2001,
+        "name": "Logical Reasoning",
+        "prerequisites": [27],
+        "related_concepts": [41, 28],
+        "difficulty_progression": {
+          "easy": {
+            "number_range": [],
+            "problem_types": ["Identify patterns", "Simple sequence puzzles"]
+          },
+          "medium": {
+            "number_range": [],
+            "problem_types": ["Solve logic grid puzzles", "Numerical pattern problems"]
+          },
+          "hard": {
+            "number_range": [],
+            "problem_types": ["Complex logic problems", "Proof by contradiction"]
+          }
+        }
+      }
+    ],
+    "learning_paths": [
+      {
+        "id": 1,
+        "name": "Arithmetic Fundamentals",
+        "domain_id": 1,
+        "concept_ids": [3, 1, 2]
+      },
+      {
+        "id": 2,
+        "name": "Fraction Fundamentals",
+        "domain_id": 2,
+        "concept_ids": [4, 5]
+      },
+      {
+        "id": 3,
+        "name": "Decimal Fundamentals",
+        "domain_id": 3,
+        "concept_ids": [6, 7]
+      },
+      {
+        "id": 4,
+        "name": "Algebra Fundamentals",
+        "domain_id": 4,
+        "concept_ids": [8, 9]
+      },
+      {
+        "id": 5,
+        "name": "Geometry Fundamentals",
+        "domain_id": 5,
+        "concept_ids": [10, 11, 12]
+      },
+      {
+        "id": 6,
+        "name": "Trigonometry Fundamentals",
+        "domain_id": 6,
+        "concept_ids": [13, 14]
+      },
+      {
+        "id": 7,
+        "name": "Calculus Fundamentals",
+        "domain_id": 7,
+        "concept_ids": [15, 16]
+      },
+      {
+        "id": 8,
+        "name": "Statistics Fundamentals",
+        "domain_id": 8,
+        "concept_ids": [17, 18]
+      },
+      {
+        "id": 9,
+        "name": "Probability Fundamentals",
+        "domain_id": 9,
+        "concept_ids": [19, 20]
+      },
+      {
+        "id": 10,
+        "name": "Number Theory Fundamentals",
+        "domain_id": 10,
+        "concept_ids": [21, 22]
+      },
+      {
+        "id": 11,
+        "name": "Combinatorics Fundamentals",
+        "domain_id": 11,
+        "concept_ids": [23, 24]
+      },
+      {
+        "id": 12,
+        "name": "Set Theory Fundamentals",
+        "domain_id": 12,
+        "concept_ids": [25, 26]
+      },
+      {
+        "id": 13,
+        "name": "Logic Fundamentals",
+        "domain_id": 13,
+        "concept_ids": [27, 28]
+      },
+      {
+        "id": 14,
+        "name": "Functions Fundamentals",
+        "domain_id": 14,
+        "concept_ids": [29, 30]
+      },
+      {
+        "id": 15,
+        "name": "Linear Algebra Fundamentals",
+        "domain_id": 15,
+        "concept_ids": [31, 32]
+      },
+      {
+        "id": 16,
+        "name": "Discrete Mathematics Fundamentals",
+        "domain_id": 16,
+        "concept_ids": [33, 34]
+      },
+      {
+        "id": 17,
+        "name": "Measurement Fundamentals",
+        "domain_id": 17,
+        "concept_ids": [35, 36]
+      },
+      {
+        "id": 18,
+        "name": "Graph Theory Fundamentals",
+        "domain_id": 18,
+        "concept_ids": [37, 38]
+      },
+      {
+        "id": 19,
+        "name": "Differential Equations Fundamentals",
+        "domain_id": 19,
+        "concept_ids": [39, 40]
+      },
+      {
+        "id": 20,
+        "name": "Mathematical Reasoning Fundamentals",
+        "domain_id": 20,
+        "concept_ids": [41, 42]
+      }
     ]
-} 
+  }
+  

@@ -35,7 +35,7 @@ class OpenAIClient:
         """
         try:
             response = await self.client.chat.completions.create(
-                model="gpt-4-turbo-preview",  # 또는 다른 적절한 모델
+                model="gpt-3.5-turbo",  # 또는 다른 적절한 모델
                 messages=[
                     {
                         "role": "system",
@@ -81,7 +81,7 @@ class OpenAIClient:
 }}"""
 
             response = await self.client.chat.completions.create(
-                model="gpt-4-turbo-preview",  # 또는 다른 적절한 모델
+                model="gpt-3.5-turbo",  # 또는 다른 적절한 모델
                 messages=[
                     {
                         "role": "system",
@@ -127,7 +127,7 @@ class OpenAIClient:
 힌트는 직접적인 답을 알려주지 않고, 문제 해결 방향을 제시해야 합니다."""
 
             response = await self.client.chat.completions.create(
-                model="gpt-4-turbo-preview",  # 또는 다른 적절한 모델
+                model="gpt-3.5-turbo",  # 또는 다른 적절한 모델
                 messages=[
                     {
                         "role": "system",

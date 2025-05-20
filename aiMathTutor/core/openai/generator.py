@@ -1,227 +1,192 @@
-from openai import OpenAI
-import os
-import random
-from typing import Dict, List
-from dotenv import load_dotenv
-import streamlit as st
-import json
-import uuid
-import logging
-from ..problem.problem_repository import ProblemRepository
+"""OpenAI 기반 문제 생성기
 
-logger = logging.getLogger(__name__)
+knowledge_map.json의 개념 구조를 활용하여 맞춤형 문제를 생성합니다.
+"""
+
+import json
+import os
+from typing import Dict, List, Optional
+from openai import OpenAI
+from dotenv import load_dotenv
 
 
 class OpenAIProblemGenerator:
-    _instance = None
-    _is_initialized = False
+    def __init__(self, data_dir: str = "data"):
+        """OpenAI 문제 생성기를 초기화합니다.
 
-    def __new__(cls):
-        if cls._instance is None:
-            cls._instance = super(OpenAIProblemGenerator, cls).__new__(cls)
-        return cls._instance
+        Args:
+            data_dir (str): 데이터 디렉토리 경로
+        """
+        # 환경 변수 로드
+        load_dotenv()
 
-    def __init__(self):
-        """OpenAI API를 사용하여 문제를 생성하는 클래스"""
-        if not self._is_initialized:
-            load_dotenv()
-            api_key = os.getenv("OPENAI_API_KEY")
-            if not api_key:
-                raise ValueError(
-                    "OpenAI API 키가 설정되지 않았습니다. .env 파일에 OPENAI_API_KEY를 설정해주세요."
-                )
-            self.client = OpenAI(api_key=api_key)
-            self.cache = {}  # 문제 캐시
-            self.repository = ProblemRepository()  # 문제 저장소 초기화
-            self._is_initialized = True
+        # API 키 확인
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise ValueError(
+                "OpenAI API 키가 설정되지 않았습니다. "
+                ".env 파일에 OPENAI_API_KEY를 설정하거나 "
+                "환경 변수로 지정해주세요."
+            )
 
-    def _generate_problem_id(self) -> str:
-        """UUID를 사용하여 고유한 문제 ID 생성"""
-        return str(uuid.uuid4())
+        self.knowledge_map_file = os.path.join(data_dir, "knowledge_map.json")
+        self.knowledge_map = self._load_knowledge_map()
+        self.client = OpenAI(api_key=api_key)  # API 키로 클라이언트 초기화
 
-    def generate_problem(self, concept: str, difficulty: str) -> dict:
-        """수학 문제 생성"""
+    def _load_knowledge_map(self) -> dict:
+        """지식 맵을 로드합니다."""
         try:
-            # 문제 유형 및 변형 패턴 정의
-            problem_patterns = {
-                "최대공약수": [
-                    "두 수의 최대공약수 찾기",
-                    "여러 물건을 동일하게 나누기",
-                    "공통 약수 중 가장 큰 수 찾기",
-                    "실생활 응용 문제",
-                ],
-                "최소공배수": [
-                    "두 수의 최소공배수 찾기",
-                    "주기가 다른 상황의 일치 시점 찾기",
-                    "공통 배수 중 가장 작은 수 찾기",
-                    "실생활 응용 문제",
-                ],
-                "약수 구하기": [
-                    "한 수의 모든 약수 찾기",
-                    "약수의 개수 구하기",
-                    "약수의 합 구하기",
-                    "실생활 응용 문제",
-                ],
-                "소수 판별": [
-                    "주어진 수가 소수인지 판별하기",
-                    "소수의 성질 이해하기",
-                    "소인수분해를 통한 소수 관계 이해",
-                    "실생활 응용 문제",
-                ],
-            }
+            with open(self.knowledge_map_file, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except FileNotFoundError:
+            raise FileNotFoundError("knowledge_map.json 파일을 찾을 수 없습니다.")
 
-            # 난이도별 변형 요소
-            difficulty_variations = {
-                "하": {
-                    "숫자_범위": "1~50",
-                    "계산_단계": "1~2단계",
-                    "문제_유형": "기본 개념 이해",
-                },
-                "중": {
-                    "숫자_범위": "1~100",
-                    "계산_단계": "2~3단계",
-                    "문제_유형": "개념 응용",
-                },
-                "상": {
-                    "숫자_범위": "1~1000",
-                    "계산_단계": "3단계 이상",
-                    "문제_유형": "복합 개념 활용",
-                },
-            }
+    def _get_concept_details(self, concept_id: str) -> Optional[Dict]:
+        """개념 ID에 해당하는 상세 정보를 조회합니다."""
+        for domain in self.knowledge_map["domains"]:
+            for unit in domain["units"]:
+                for concept in unit["concepts"]:
+                    if concept["id"] == concept_id:
+                        return {
+                            "domain": domain["name"],
+                            "unit": unit["name"],
+                            "concept": concept["name"],
+                            "description": concept["description"],
+                            "prerequisites": concept["prerequisites"],
+                            "difficulty_levels": concept["difficulty_levels"],
+                        }
+        return None
 
-            # 선택된 패턴과 변형 요소
-            selected_pattern = random.choice(
-                problem_patterns.get(concept, ["기본 문제"])
-            )
-            diff_var = difficulty_variations.get(
-                difficulty, difficulty_variations["중"]
-            )
+    def _get_prerequisite_concepts(self, concept_id: str) -> List[Dict]:
+        """선수 개념들의 정보를 조회합니다."""
+        concept_details = self._get_concept_details(concept_id)
+        if not concept_details:
+            return []
 
-            # knowledge_map.json에서 문제 유형 가져오기
-            try:
-                with open(
-                    "data/knowledge_base/knowledge_map.json", "r", encoding="utf-8"
-                ) as f:
-                    knowledge_map = json.load(f)
-                    for domain in knowledge_map:
-                        if "concept" in domain and domain["concept"] == concept:
-                            if "problem" in domain:
-                                problem_types = [
-                                    p["question"] for p in domain["problem"].values()
-                                ]
-                                if problem_types:
-                                    selected_pattern = random.choice(problem_types)
-            except Exception as e:
-                logger.error(f"knowledge_map.json 로드 중 오류 발생: {str(e)}")
-                # knowledge_map.json 로드 실패 시 기본 패턴 사용
+        prereq_concepts = []
+        for prereq_id in concept_details["prerequisites"]:
+            prereq_details = self._get_concept_details(prereq_id)
+            if prereq_details:
+                prereq_concepts.append(prereq_details)
+        return prereq_concepts
 
-            prompt = f"""
-            다음 조건에 맞는 초등학교 수학 객관식 문제를 생성해주세요.
-            이전에 생성된 문제와 다른 새로운 유형의 문제를 만들어주세요.
-            JSON 형식으로 응답해주세요.
+    def generate_problem(self, concept_id: str, difficulty: str) -> dict:
+        """주어진 개념과 난이도에 맞는 문제를 생성합니다.
 
-            조건:
-            - 개념: {concept}
-            - 난이도: {difficulty}
-            - 문제 패턴: {selected_pattern}
-            - 숫자 범위: {diff_var['숫자_범위']}
-            - 계산 단계: {diff_var['계산_단계']}
-            - 문제 유형: {diff_var['문제_유형']}
-            
-            추가 요구사항:
-            1. 실생활과 연관된 흥미로운 상황을 포함해주세요.
-            2. 문제에 사용되는 숫자는 매번 다르게 생성해주세요.
-            3. 문제 해설은 단계별로 자세히 설명해주세요.
-            4. 오답도 교육적 가치가 있는 것으로 선택해주세요.
-            
-            다음 JSON 형식으로 정확히 응답해주세요:
-            {{
-                "question": "실생활 상황이 포함된 문제 내용",
-                "options": [
-                    "1번 보기",
-                    "2번 보기",
-                    "3번 보기",
-                    "4번 보기"
-                ],
-                "correct_answer": 정답 번호(1~4),
-                "explanation": "단계별 자세한 해설",
-                "concept": "{concept}",
-                "difficulty": "{difficulty}",
-                "pattern": "{selected_pattern}"
-            }}
-            """
+        Args:
+            concept_id (str): 개념 ID
+            difficulty (str): 난이도 ('상', '중', '하')
 
-            logger.info(f"OpenAI API 호출 시작 - 개념: {concept}, 난이도: {difficulty}")
+        Returns:
+            dict: 생성된 문제 정보
+        """
+        # 개념 정보 조회
+        concept_details = self._get_concept_details(concept_id)
+        if not concept_details:
+            raise ValueError(f"개념 ID {concept_id}를 찾을 수 없습니다.")
+
+        # 선수 개념 정보 조회
+        prereq_concepts = self._get_prerequisite_concepts(concept_id)
+
+        # 프롬프트 구성
+        prompt = self._create_problem_prompt(
+            concept_details, difficulty, prereq_concepts
+        )
+
+        # OpenAI API 호출
+        try:
             response = self.client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[
                     {
                         "role": "system",
-                        "content": "You are a helpful assistant that generates math problems. Always respond in JSON format.",
-                    },
-                    {
-                        "role": "user",
-                        "content": "Please generate a response in JSON format following the structure below.",
+                        "content": "당신은 수학 교육 전문가입니다. 학생의 수준과 교육과정에 맞는 최적의 문제를 생성해주세요.",
                     },
                     {"role": "user", "content": prompt},
                 ],
                 temperature=0.7,
-                response_format={"type": "json_object"},
             )
-            logger.info("OpenAI API 호출 완료")
 
-            # JSON 파싱
-            try:
-                result = json.loads(response.choices[0].message.content)
-                logger.info("OpenAI 응답 JSON 파싱 성공")
-            except json.JSONDecodeError as e:
-                logger.error(f"JSON 파싱 오류: {str(e)}")
-                raise ValueError("OpenAI 응답을 JSON으로 파싱할 수 없습니다.")
+            # 응답 파싱 및 반환
+            problem_data = self._parse_response(response.choices[0].message.content)
+            problem_data.update(
+                {
+                    "concept": concept_details["concept"],
+                    "difficulty": difficulty,
+                    "domain": concept_details["domain"],
+                    "unit": concept_details["unit"],
+                }
+            )
+            return problem_data
+
+        except Exception as e:
+            raise Exception(f"문제 생성 중 오류 발생: {str(e)}")
+
+    def _create_problem_prompt(
+        self, concept_details: Dict, difficulty: str, prereq_concepts: List[Dict]
+    ) -> str:
+        """문제 생성을 위한 프롬프트를 생성합니다."""
+        prompt = f"""다음 조건에 맞는 수학 문제를 생성해주세요:
+
+1. 학습 개념:
+   - 도메인: {concept_details['domain']}
+   - 단원: {concept_details['unit']}
+   - 개념: {concept_details['concept']}
+   - 개념 설명: {concept_details['description']}
+
+2. 난이도: {difficulty}
+
+3. 선수 개념:
+"""
+        if prereq_concepts:
+            for prereq in prereq_concepts:
+                prompt += f"   - {prereq['concept']}: {prereq['description']}\n"
+        else:
+            prompt += "   - 선수 개념 없음\n"
+
+        prompt += """
+4. 요구사항:
+   - 객관식 4지선다 문제로 생성
+   - 실생활 연계 문제 포함
+   - 명확한 해설 제공
+   - 오답 보기에 대한 설명 포함
+   - 난이도에 맞는 적절한 계산량과 복잡도 조절
+
+5. 문제 유형 가이드라인:
+   - '하' 난이도: 기본 개념 이해도 확인, 단순 계산 위주
+   - '중' 난이도: 개념 응용력 확인, 2-3단계 문제 해결
+   - '상' 난이도: 심화 개념 적용, 복합적 문제 해결 능력 평가
+
+다음 JSON 형식으로 응답해주세요:
+{
+    "question": "문제 내용",
+    "options": ["보기1", "보기2", "보기3", "보기4"],
+    "correct_answer": 정답번호(1-4),
+    "explanation": "상세한 해설",
+    "next_problems": {
+        "similar": {"concept": "개념ID", "difficulty": "난이도"},
+        "harder": {"concept": "개념ID", "difficulty": "난이도"},
+        "related": {"concept": "개념ID", "difficulty": "난이도"}
+    }
+}"""
+
+        return prompt
+
+    def _parse_response(self, response_text: str) -> dict:
+        """API 응답을 파싱하여 문제 데이터로 변환합니다."""
+        try:
+            # JSON 응답 파싱
+            problem_data = json.loads(response_text)
 
             # 필수 필드 검증
             required_fields = ["question", "options", "correct_answer", "explanation"]
             for field in required_fields:
-                if field not in result:
-                    logger.error(f"필수 필드 누락: {field}")
-                    raise ValueError(
-                        f"생성된 문제에 필수 필드가 누락되었습니다: {field}"
-                    )
+                if field not in problem_data:
+                    raise ValueError(f"응답에서 필수 필드 {field}를 찾을 수 없습니다.")
 
-            # correct_answer 유효성 검증
-            if not isinstance(result["correct_answer"], int) or not (
-                1 <= result["correct_answer"] <= 4
-            ):
-                logger.error(f"잘못된 correct_answer 값: {result['correct_answer']}")
-                raise ValueError("correct_answer는 1부터 4까지의 정수여야 합니다.")
+            return problem_data
 
-            # options 길이 검증
-            if not isinstance(result["options"], list) or len(result["options"]) != 4:
-                logger.error(f"잘못된 options 길이: {len(result.get('options', []))}")
-                raise ValueError("options는 정확히 4개의 선택지를 포함해야 합니다.")
-
-            # UUID 기반 문제 ID 추가
-            result["id"] = self._generate_problem_id()
-
-            # 캐시에 문제 저장
-            self.cache[result["id"]] = result
-
-            # 문제 저장소에 저장
-            try:
-                self.repository.save_problem(result)
-                logger.info(f"문제가 저장소에 저장되었습니다. ID: {result['id']}")
-            except Exception as e:
-                logger.error(f"문제 저장소 저장 실패: {str(e)}")
-
-            return result
-
+        except json.JSONDecodeError:
+            raise ValueError("API 응답을 JSON으로 파싱할 수 없습니다.")
         except Exception as e:
-            logger.error(f"문제 생성 중 예외 발생: {str(e)}")
-            return {
-                "id": self._generate_problem_id(),
-                "question": "문제 생성 중 오류가 발생했습니다.",
-                "options": ["오류가 발생했습니다"] * 4,
-                "correct_answer": 1,
-                "explanation": f"죄송합니다. 문제 생성 중 오류가 발생했습니다. 다시 시도해주세요. (오류: {str(e)})",
-                "concept": concept,
-                "difficulty": difficulty,
-            }
+            raise Exception(f"응답 파싱 중 오류 발생: {str(e)}")
